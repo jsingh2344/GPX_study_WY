@@ -6,4 +6,4 @@ Applying computational methods to backcountry travel data.
 
 Contains scripts and descriptions of the input GPX data. Includes:
 - Geographic analysis of GPX tracks
-- Slope and elevation analysis of 90m sections of GPX tracks
+- Slope and elevation analysis of 40m sections of GPX tracks
