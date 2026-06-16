@@ -8,20 +8,20 @@ The geographic distribution map is generated at [`products/wyoming_peakbagger_gp
 
 ## Dataset Totals
 
-- Tracks summarized: 29
-- Total mileage: 340.15 mi
-- Total elevation gain: 115,358 ft
+- Tracks summarized: 25
+- Total mileage: 278.67 mi
+- Total elevation gain: 97,058 ft
 - Longest track: GannettPeak 2023 07 04 (51.56 mi)
 - Highest cumulative gain: GannettPeak 2024 10 05 (10,404 ft)
 - Most GPX points: BuckMountain 2024 09 09 (3,000 points)
 
 ## Geographic Distribution
 
-- Western Wyoming / Teton-side tracks: 12
-- Central Wyoming tracks: 11
+- Western Wyoming / Teton-side tracks: 9
+- Central Wyoming tracks: 10
 - Eastern Wyoming tracks: 6
 - Southern Wyoming tracks: 5
-- Northern Wyoming tracks: 6
+- Northern Wyoming tracks: 5
 
 ## Full Table
 
@@ -34,7 +34,6 @@ CSV version: [`products/track_elevation_mileage_points.csv`](products/track_elev
 | BuckMountain 2024 09 09 | 9.72 | 3000 | 3000 | 6778 | 11929 | 6434 | 6437 | 4.23 | 43.677541 | -110.798241 | BuckMountain2024-09-09.gpx |
 | CementRidge 2025 05 12 | 0.63 | 151 | 151 | 6467 | 6657 | 194 | 194 | 0.57 | 44.34356 | -104.061396 | CementRidge2025-05-12.gpx |
 | ClosedBenchmark 2024 07 27 | 21.89 | 2189 | 2189 | 6991 | 11293 | 6132 | 6585 | 13.75 | 44.878975 | -109.828327 | ClosedBenchmark2024-07-27.gpx |
-| FrancsPeak 2025 07 26 | 29.51 | 2110 | 2110 | 6404 | 13143 | 3323 | 7989 | 8.65 | 43.999736 | -109.306802 | FrancsPeak2025-07-26.gpx |
 | FremontPeak 2025 08 17 | 8.07 | 1663 | 1663 | 10374 | 13737 | 3550 | 3543 | 7.62 | 43.109041 | -109.621763 | FremontPeak2025-08-17.gpx |
 | GannettPeak 2023 07 04 | 51.56 | 2992 | 2992 | 7595 | 10899 | 8419 | 8415 | 80.48 | 43.307132 | -109.579838 | GannettPeak2023-07-04.gpx |
 | GannettPeak 2024 10 05 | 38.67 | 2850 | 2850 | 7979 | 13822 | 10404 | 10407 | 23.07 | 43.223286 | -109.744827 | GannettPeak2024-10-05.gpx |
@@ -46,17 +45,14 @@ CSV version: [`products/track_elevation_mileage_points.csv`](products/track_elev
 | MedicineBowPeak 2025 07 21 | 13.07 | 3000 | 3000 | 10443 | 12021 | 5630 | 5577 | 5.52 | 41.357225 | -106.306858 | MedicineBowPeak2025-07-21.gpx |
 | MedicineBowPeak WestRidge 2019 08 09 | 6.91 | 1126 | 1126 | 10522 | 12021 | 2320 | 2277 | 3.85 | 41.348267 | -106.322685 | MedicineBowPeak-WestRidge2019-08-09.gpx |
 | MedicineBowPeak WestRidge 2024 06 14 | 4.6 | 876 | 876 | 10764 | 12064 | 1424 | 1414 | 3.57 | 41.356803 | -106.313148 | MedicineBowPeak-WestRidge2024-06-14.gpx |
-| MiddleTeton 2023 04 15 | 13.51 | 1058 | 1058 | 6549 | 12687 | 7165 | 7057 | 11.78 | 43.717402 | -110.775846 | MiddleTeton2023-04-15.gpx |
 | MountWashakie 2020 07 05 | 5.55 | 2327 | 2327 | 10184 | 12493 | 5459 | 5453 | 3.8 | 42.802985 | -109.256972 | MountWashakie2020-07-05.gpx |
 | NiobraraCountyHighPoint 2025 04 26 | 3.59 | 333 | 333 | 5456 | 6115 | 948 | 919 | 1.3 | 42.635127 | -104.585635 | NiobraraCountyHighPoint2025-04-26.gpx |
 | NorthBrecciaCliffs 2018 09 05 | 9.35 | 1383 | 1383 | 8822 | 11316 | 3891 | 3940 | 5.55 | 43.802179 | -110.105326 | NorthBrecciaCliffs2018-09-05.gpx |
 | OwlCreekMountainsHighPoint 2021 07 14 | 0.6 | 59 | 59 | 9482 | 9862 | 16 | 390 | 0.28 | 43.59796 | -108.792152 | OwlCreekMountainsHighPoint2021-07-14.gpx |
 | ProspectorsMountain 2018 06 15 | 3.62 | 1192 | 1192 | 7871 | 11230 | 2920 | 3402 | 2.3 | 43.652892 | -110.844974 | ProspectorsMountain2018-06-15.gpx |
-| SepulcherMountain 2023 01 | 9.59 | 802 | 802 | 6280 | 9623 | 3819 | 3829 | 6.05 | 44.980198 | -110.738937 | SepulcherMountain2023-01.gpx |
 | SheepMountain EastPeak 2023 05 06 | 6.48 | 614 | 614 | 5594 | 7785 | 3491 | 3602 | 4.38 | 44.458604 | -109.301785 | SheepMountain-EastPeak2023-05-06.gpx |
 | SubletteMountain 2021 06 13 | 8.43 | 2102 | 2102 | 6345 | 9314 | 4117 | 4157 | 2.83 | 42.270188 | -111.001448 | SubletteMountain2021-06-13.gpx |
 | SublettePeak 2024 07 13 | 2.26 | 802 | 802 | 9462 | 10571 | 1568 | 1522 | 2.08 | 43.746979 | -110.035758 | SublettePeak2024-07-13.gpx |
-| SymmetrySpire 2023 08 31 | 8.87 | 2065 | 2065 | 6542 | 9806 | 3993 | 3720 | 7.52 | 43.768496 | -110.755078 | SymmetrySpire2023-08-31.gpx |
 | WindRiverPeak 2025 08 08 | 13.98 | 2742 | 2742 | 9711 | 13209 | 4659 | 4685 | 11.1 | 42.726834 | -109.160621 | WindRiverPeak2025-08-08.gpx |
 
 ## GPX Cleaning Note

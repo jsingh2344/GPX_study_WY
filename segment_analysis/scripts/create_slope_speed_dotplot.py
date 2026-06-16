@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 ANALYSIS_DIR = Path(__file__).resolve().parents[1]
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_GPX_DIR = REPO_ROOT / "peakbgr_gpx" / "gpx"
+DEFAULT_GPX_DIR = REPO_ROOT / "peakbgr_gpx" / "gpx_cleaned"
 DEFAULT_DATA_DIR = ANALYSIS_DIR / "data"
 DEFAULT_PRODUCTS_DIR = ANALYSIS_DIR / "products"
 
@@ -28,6 +28,8 @@ SECONDS_PER_HOUR = 3600.0
 
 ELEVATION_BINS = [f"{lower}-{lower + 1500}" for lower in range(5000, 14000, 1500)]
 ELEVATION_COLORS = ["#254b8f", "#2d7fb8", "#31a6a6", "#70bf73", "#d8c94f", "#e6853a"]
+SLOPE_AVERAGE_BIN_DEG = 10
+MIN_AVERAGE_BIN_COUNT_FOR_LINE = 50
 
 
 Point = tuple[float, float, Optional[float], Optional[datetime]]
@@ -210,6 +212,52 @@ def write_segments_csv(rows: list[dict[str, object]], path: Path) -> None:
         writer.writerows(rows)
 
 
+def binned_average_speed(rows: list[dict[str, object]], slope_limit: int) -> tuple[list[float], list[float], list[int]]:
+    centers: list[float] = []
+    averages: list[float] = []
+    counts: list[int] = []
+    for lower in range(-slope_limit, slope_limit, SLOPE_AVERAGE_BIN_DEG):
+        upper = lower + SLOPE_AVERAGE_BIN_DEG
+        matching = [
+            float(row["speed_mph"])
+            for row in rows
+            if lower <= float(row["slope_angle_deg"]) < upper
+        ]
+        if not matching:
+            continue
+        centers.append(lower + SLOPE_AVERAGE_BIN_DEG / 2)
+        averages.append(sum(matching) / len(matching))
+        counts.append(len(matching))
+    return centers, averages, counts
+
+
+def write_average_speed_csv(rows: list[dict[str, object]], slope_limit: int, path: Path) -> None:
+    avg_x, avg_y, avg_counts = binned_average_speed(rows, slope_limit)
+    with path.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(
+            fh,
+            fieldnames=[
+                "slope_bin_lower_deg",
+                "slope_bin_upper_deg",
+                "slope_bin_center_deg",
+                "mean_speed_mph",
+                "segment_count",
+            ],
+        )
+        writer.writeheader()
+        for center, mean_speed, count in zip(avg_x, avg_y, avg_counts):
+            lower = center - SLOPE_AVERAGE_BIN_DEG / 2
+            writer.writerow(
+                {
+                    "slope_bin_lower_deg": int(lower),
+                    "slope_bin_upper_deg": int(lower + SLOPE_AVERAGE_BIN_DEG),
+                    "slope_bin_center_deg": round(center, 1),
+                    "mean_speed_mph": round(mean_speed, 3),
+                    "segment_count": count,
+                }
+            )
+
+
 def plot_dotplot(rows: list[dict[str, object]], path: Path, max_speed_mph: float) -> None:
     fig, ax = plt.subplots(figsize=(11, 7.5), dpi=180)
 
@@ -231,6 +279,27 @@ def plot_dotplot(rows: list[dict[str, object]], path: Path, max_speed_mph: float
     speeds = [float(row["speed_mph"]) for row in rows]
     max_abs_slope = max(abs(float(row["slope_angle_deg"])) for row in rows)
     slope_limit = min(90, max(10, math.ceil(max_abs_slope / 10) * 10))
+    avg_x, avg_y, avg_counts = binned_average_speed(rows, slope_limit)
+    if avg_x:
+        line_points = [
+            (x, y, count)
+            for x, y, count in zip(avg_x, avg_y, avg_counts)
+            if count >= MIN_AVERAGE_BIN_COUNT_FOR_LINE
+        ]
+        line_x = [point[0] for point in line_points]
+        line_y = [point[1] for point in line_points]
+        ax.plot(
+            line_x,
+            line_y,
+            color="#111111",
+            linewidth=2.4,
+            marker="o",
+            markersize=4,
+            label=f"Mean speed per {SLOPE_AVERAGE_BIN_DEG}° bin",
+            zorder=5,
+        )
+        for x, y, count in line_points:
+            ax.text(x, y + 0.25, f"{y:.1f}", ha="center", va="bottom", fontsize=8, color="#111111")
     ax.set_xlim(-slope_limit, slope_limit)
     ax.set_ylim(0, max_speed_mph)
     ax.set_title("Slope vs. Speed Across 40 m GPX Segments", fontsize=16, weight="bold")
@@ -241,8 +310,8 @@ def plot_dotplot(rows: list[dict[str, object]], path: Path, max_speed_mph: float
     fig.text(
         0.01,
         0.01,
-        f"Source: {len(rows):,} timed 40 m segments from active Peakbagger GPX files. "
-        f"Segments outside 5000-14000 ft or above {max_speed_mph:g} mph omitted.",
+        f"Source: {len(rows):,} cleaned 40 m segments. "
+        f"Segments outside 5000-14000 ft or above {max_speed_mph:g} mph omitted. Black line shows {SLOPE_AVERAGE_BIN_DEG}° bin means with at least {MIN_AVERAGE_BIN_COUNT_FOR_LINE} segments.",
         fontsize=9,
         color="#555555",
     )
@@ -253,12 +322,13 @@ def plot_dotplot(rows: list[dict[str, object]], path: Path, max_speed_mph: float
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--gpx-dir", default=str(DEFAULT_GPX_DIR), help="Directory containing timed GPX files")
+    parser.add_argument("--gpx-dir", default=str(DEFAULT_GPX_DIR), help="Directory containing cleaned timed GPX files")
     parser.add_argument("--data-dir", default=str(DEFAULT_DATA_DIR), help="Directory for generated CSV data")
     parser.add_argument("--products-dir", default=str(DEFAULT_PRODUCTS_DIR), help="Directory for generated figures")
     parser.add_argument("--max-speed-mph", type=float, default=MAX_SPEED_MPH, help="Discard faster artifact segments")
-    parser.add_argument("--csv", default="slope_speed_40m_segments.csv", help="Output segment CSV filename")
-    parser.add_argument("--png", default="slope_speed_dotplot.png", help="Output PNG filename")
+    parser.add_argument("--csv", default="slope_speed_40m_segments_cleaned_gpx.csv", help="Output segment CSV filename")
+    parser.add_argument("--average-csv", default="slope_speed_10deg_average_cleaned_gpx.csv", help="Output average-speed CSV filename")
+    parser.add_argument("--png", default="slope_speed_dotplot_cleaned_gpx.png", help="Output PNG filename")
     args = parser.parse_args()
 
     gpx_dir = Path(args.gpx_dir).expanduser().resolve()
@@ -272,10 +342,15 @@ def main() -> int:
         raise SystemExit(f"No valid timed 40 m segments found in {gpx_dir}")
 
     csv_path = data_dir / args.csv
+    average_csv_path = data_dir / args.average_csv
     png_path = products_dir / args.png
     write_segments_csv(rows, csv_path)
+    max_abs_slope = max(abs(float(row["slope_angle_deg"])) for row in rows)
+    slope_limit = min(90, max(10, math.ceil(max_abs_slope / 10) * 10))
+    write_average_speed_csv(rows, slope_limit, average_csv_path)
     plot_dotplot(rows, png_path, args.max_speed_mph)
     print(f"Wrote {len(rows):,} segment rows to {csv_path}")
+    print(f"Wrote 10-degree average speeds to {average_csv_path}")
     print(f"Wrote dotplot to {png_path}")
     return 0
 
