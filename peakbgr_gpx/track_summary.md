@@ -6,6 +6,8 @@ This report summarizes the timed Peakbagger GPX tracks in `peakbgr_gpx/gpx/`.
 
 The geographic distribution map is generated at [`products/wyoming_peakbagger_gpx_map.html`](products/wyoming_peakbagger_gpx_map.html). It uses a locally cached satellite background, dots at track centroids, dot size for mileage, and dot color for elevation gain.
 
+<img width="1844" height="1458" alt="image" src="https://github.com/user-attachments/assets/71813dea-4136-4486-969b-6b47bd5ded84" />
+
 ## Dataset Totals
 
 - Tracks summarized: 30
