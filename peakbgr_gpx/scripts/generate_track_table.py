@@ -17,7 +17,6 @@ PRODUCTS_DIR = PROJECT_DIR / "products"
 MAP_PATH = PRODUCTS_DIR / "wyoming_peakbagger_gpx_map.html"
 CSV_PATH = PRODUCTS_DIR / "track_elevation_mileage_points.csv"
 ROOT_MD_PATH = PROJECT_DIR / "track_summary.md"
-PRODUCTS_MD_PATH = PRODUCTS_DIR / "track_summary.md"
 
 Point = tuple[float, float, Optional[float], Optional[dt.datetime]]
 
@@ -212,13 +211,18 @@ def markdown_body(rows: list[dict[str, object]], md_path: Path) -> str:
         "",
         markdown_table(rows),
         "",
+        "## GPX Cleaning Note",
+        "",
+        "Several source Peakbagger GPX files contain many consecutive trackpoints with the same timestamp. Those duplicate timestamps create artificial speed bands during 40 m segment analysis, especially at values like 1.491 mph where a segment appears to take exactly 60 seconds. To preserve the original dataset while making speed analysis cleaner, duplicate-timestamp points were removed from copied GPX files only.",
+        "",
+        "The original GPX files remain in [`gpx/`](gpx/). Cleaned GPX copies are in [`gpx_cleaned/`](gpx_cleaned/), and the cleaning summary is in [`products/gpx_duplicate_timestamp_cleaning_summary.csv`](products/gpx_duplicate_timestamp_cleaning_summary.csv).",
+        "",
     ]
     return "\n".join(body)
 
 
 def write_markdown(rows: list[dict[str, object]]) -> None:
     ROOT_MD_PATH.write_text(markdown_body(rows, ROOT_MD_PATH), encoding="utf-8")
-    PRODUCTS_MD_PATH.write_text(markdown_body(rows, PRODUCTS_MD_PATH), encoding="utf-8")
 
 
 def main() -> int:
@@ -230,7 +234,6 @@ def main() -> int:
     write_markdown(rows)
     print(f"Wrote {len(rows)} rows to {CSV_PATH}")
     print(f"Wrote summary to {ROOT_MD_PATH}")
-    print(f"Wrote products summary to {PRODUCTS_MD_PATH}")
     return 0
 
 
