@@ -42,3 +42,10 @@ Mild improvement! The model at least is now making predictions out to 4 mph, whi
 Also, a few notes:
 - Plugging in a 0 slope and 5000 feet gives: ``` 5.4301 - 0.000258 * 5000 = 4.14 mph ```
 - A 30 percent uphill grade at 13000 feet gives 0.5 mph
+
+## Ridge regression
+
+These variables have lots of covariance. So I tried a ridge regression model next with a couple other upgrades: 
+- Slope is now included as a classifier variable (e.g. -40 to -30, -30 to -20, etc.) to model non-linear effect of hiking grade (currently, the model is forced to regard slope largely as a linear effect across these different variables)
+- Now cross-validating with different test sets. Previously, randomly held out 5 GPX tracks as the test set. Holding out segments individually didn't work as well because several tracks are in the same place. ** Now, trying leave-one-out cross validation to stabilize error values.
+- Also, testing to find the most predictive alpha for the ridge regression among ``` 0, 0.01, 0.1, 1, 10, 100, 1000 ```
