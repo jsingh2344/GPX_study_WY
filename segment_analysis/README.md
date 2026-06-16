@@ -28,4 +28,6 @@ Which reflects pretty closely what I'd expect. Also, average splits at degree ba
 <img width="1980" height="1350" alt="image" src="https://github.com/user-attachments/assets/dae92822-c20d-401e-a08c-bf87274512b0" />
 
 Going downhill is faster! The last thing I want to check out still is the number of segments above 10 mph.
+Looking closer, most of these belong to four tracks on Francs Peak, Symmetry Spire, the Middle Teton, and Sepulcher Mountain that involve driving,
+boating, and skiing for the last two. So I am removing them also. I am interested in dry land transportation.
 
