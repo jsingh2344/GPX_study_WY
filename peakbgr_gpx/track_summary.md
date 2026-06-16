@@ -6,6 +6,8 @@ This report summarizes the timed Peakbagger GPX tracks in `peakbgr_gpx/gpx/`.
 
 The geographic distribution map is generated at [`products/wyoming_peakbagger_gpx_map.html`](products/wyoming_peakbagger_gpx_map.html). It uses a locally cached satellite background, dots at track centroids, dot size for mileage, and dot color for elevation gain.
 
+<img width="1842" height="1460" alt="image" src="https://github.com/user-attachments/assets/d2ed0798-ac95-4823-9bdd-b099876512ae" />
+
 ## Dataset Totals
 
 - Tracks summarized: 27
@@ -17,7 +19,7 @@ The geographic distribution map is generated at [`products/wyoming_peakbagger_gp
 
 ## Geographic Distribution
 
-- Western Wyoming / Teton-side tracks: 11
+- Western Wyoming tracks: 11
 - Central Wyoming tracks: 10
 - Eastern Wyoming tracks: 6
 - Southern Wyoming tracks: 5
