@@ -59,3 +59,8 @@ CSV version: [`products/track_elevation_mileage_points.csv`](products/track_elev
 | SublettePeak 2024 07 13 | 2.26 | 802 | 802 | 9462 | 10571 | 1568 | 1522 | 2.08 | 43.746979 | -110.035758 | SublettePeak2024-07-13.gpx |
 | SymmetrySpire 2023 08 31 | 8.87 | 2065 | 2065 | 6542 | 9806 | 3993 | 3720 | 7.52 | 43.768496 | -110.755078 | SymmetrySpire2023-08-31.gpx |
 | WindRiverPeak 2025 08 08 | 13.98 | 2742 | 2742 | 9711 | 13209 | 4659 | 4685 | 11.1 | 42.726834 | -109.160621 | WindRiverPeak2025-08-08.gpx |
+
+## Slope analysis
+
+<img width="2160" height="1260" alt="image" src="https://github.com/user-attachments/assets/24179c90-9466-4774-902f-f280ff1f6f3f" />
+
