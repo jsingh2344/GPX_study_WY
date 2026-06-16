@@ -62,5 +62,6 @@ CSV version: [`products/track_elevation_mileage_points.csv`](products/track_elev
 
 ## Slope analysis
 
-<img width="2160" height="1260" alt="image" src="https://github.com/user-attachments/assets/24179c90-9466-4774-902f-f280ff1f6f3f" />
+<img width="2160" height="1260" alt="image" src="https://github.com/user-attachments/assets/e054de65-33a6-4fbc-9be1-714b6acaf97a" />
+
 
