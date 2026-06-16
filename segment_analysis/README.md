@@ -31,3 +31,6 @@ Going downhill is faster! The last thing I want to check out still is the number
 Looking closer, most of these belong to four tracks on Francs Peak, Symmetry Spire, the Middle Teton, and Sepulcher Mountain that involve driving,
 boating, and skiing for the last two. So I am removing them also. I am interested in dry land transportation.
 
+<img width="1980" height="1350" alt="image" src="https://github.com/user-attachments/assets/3064c9f5-0d12-4616-be6e-702bd18a2de6" />
+
+And with that, I am down to this! With an adjustment to the line plot binning, this is now the shape of my data:
