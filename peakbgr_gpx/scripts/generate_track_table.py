@@ -11,9 +11,9 @@ from pathlib import Path
 from typing import Optional
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-GPX_DIR = REPO_ROOT / "peakbgr_gpx" / "gpx"
-PRODUCTS_DIR = REPO_ROOT / "peakbgr_gpx" / "products"
+PROJECT_DIR = Path(__file__).resolve().parents[1]
+GPX_DIR = PROJECT_DIR / "gpx"
+PRODUCTS_DIR = PROJECT_DIR / "products"
 MAP_PATH = PRODUCTS_DIR / "wyoming_peakbagger_gpx_map.html"
 CSV_PATH = PRODUCTS_DIR / "track_elevation_mileage_points.csv"
 MD_PATH = PRODUCTS_DIR / "track_summary.md"
