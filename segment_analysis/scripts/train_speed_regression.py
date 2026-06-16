@@ -17,6 +17,15 @@ PREDICTIONS = ROOT / "data" / "speed_regression_predictions.csv"
 PLOT = ROOT / "products" / "speed_regression_actual_vs_predicted.png"
 TEST_FRACTION = 0.20
 RANDOM_SEED = 7
+FEATURE_NAMES = [
+    "slope",
+    "elevation",
+    "abs_slope",
+    "uphill_slope",
+    "downhill_slope",
+    "slope_squared",
+    "elevation_x_uphill_slope",
+]
 
 
 def read_rows(path: Path) -> list[dict[str, object]]:
@@ -43,16 +52,31 @@ def split_by_file(rows: list[dict[str, object]]) -> tuple[list[dict[str, object]
     return train, test, test_files
 
 
+def features(row: dict[str, object]) -> list[float]:
+    slope = float(row["slope"])
+    elevation = float(row["elevation"])
+    abs_slope = abs(slope)
+    return [
+        slope,
+        elevation,
+        abs_slope,
+        max(slope, 0.0),
+        max(-slope, 0.0),
+        slope**2,
+        elevation * max(slope, 0.0),
+    ]
+
+
 def feature_stats(rows: list[dict[str, object]]) -> tuple[np.ndarray, np.ndarray]:
-    features = np.array([[row["slope"], row["elevation"]] for row in rows], dtype=float)
-    means = features.mean(axis=0)
-    stds = features.std(axis=0)
+    matrix = np.array([features(row) for row in rows], dtype=float)
+    means = matrix.mean(axis=0)
+    stds = matrix.std(axis=0)
     return means, stds
 
 
 def design_matrix(rows: list[dict[str, object]], means: np.ndarray, stds: np.ndarray) -> np.ndarray:
-    features = np.array([[row["slope"], row["elevation"]] for row in rows], dtype=float)
-    scaled = (features - means) / stds
+    matrix = np.array([features(row) for row in rows], dtype=float)
+    scaled = (matrix - means) / stds
     return np.column_stack([np.ones(len(rows)), scaled])
 
 
@@ -63,9 +87,8 @@ def speeds(rows: list[dict[str, object]]) -> np.ndarray:
 def predict(rows: list[dict[str, object]], coefficients: np.ndarray, means: np.ndarray, stds: np.ndarray) -> np.ndarray:
     predictions = []
     for row in rows:
-        scaled_slope = (row["slope"] - means[0]) / stds[0]
-        scaled_elevation = (row["elevation"] - means[1]) / stds[1]
-        predictions.append(coefficients[0] + coefficients[1] * scaled_slope + coefficients[2] * scaled_elevation)
+        scaled = (np.array(features(row), dtype=float) - means) / stds
+        predictions.append(coefficients[0] + float(np.dot(coefficients[1:], scaled)))
     return np.array(predictions, dtype=float)
 
 
@@ -111,16 +134,17 @@ def main() -> int:
     coefficients = np.linalg.lstsq(design_matrix(train, means, stds), speeds(train), rcond=None)[0]
     predicted = predict(test, coefficients, means, stds)
     rmse, mae, r2 = metrics(speeds(test), predicted)
-    original_slope_coef = coefficients[1] / stds[0]
-    original_elevation_coef = coefficients[2] / stds[1]
-    original_intercept = coefficients[0] - original_slope_coef * means[0] - original_elevation_coef * means[1]
+    original_coefficients = coefficients[1:] / stds
+    original_intercept = coefficients[0] - float(np.dot(original_coefficients, means))
 
     write_predictions(test, predicted)
     plot_predictions(speeds(test), predicted)
 
     print(f"Rows: {len(rows):,} total, {len(train):,} train, {len(test):,} test")
     print(f"Test files: {', '.join(sorted(test_files))}")
-    print(f"Model: speed = {original_intercept:.4f} + {original_slope_coef:.4f}*slope + {original_elevation_coef:.6f}*elevation")
+    print(f"Intercept: {original_intercept:.4f}")
+    for name, coefficient in zip(FEATURE_NAMES, original_coefficients):
+        print(f"{name}: {coefficient:.6f}")
     print(f"Test RMSE: {rmse:.3f} mph")
     print(f"Test MAE: {mae:.3f} mph")
     print(f"Test R^2: {r2:.3f}")
