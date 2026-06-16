@@ -232,13 +232,9 @@ def render_map(tracks: list[dict[str, object]], ref_dir: Path) -> str:
         x, y = project(float(track["lat"]), float(track["lon"]))
         radius = float(track["radius"])
         color = str(track["color"])
-        label = str(track["label"])
-        distance = float(track["distance_mi"])
-        gain = int(track["gain_ft"])
-        popup_text = f"{label} | {distance:.2f} mi | {gain:,} ft gain | {track['file']}"
         marker_svg.append(
             f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius:.1f}" fill="{color}" '
-            f'fill-opacity="0.86" stroke="#ffffff" stroke-width="2.1"><title>{popup_text}</title></circle>'
+            f'fill-opacity="0.86" stroke="#ffffff" stroke-width="2.1"/>'
         )
 
     return f"""<!doctype html>
@@ -342,7 +338,6 @@ def render_map(tracks: list[dict[str, object]], ref_dir: Path) -> str:
           <span class="size-dot" style="width:22px;height:22px"></span>
           <span>length: short to long</span>
         </div>
-        <p class="note">Hover a dot for file, length, gain, and source name.</p>
         <p class="note">Satellite background: Esri World Imagery export embedded locally.</p>
       </section>
     </div>
