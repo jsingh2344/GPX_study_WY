@@ -34,3 +34,6 @@ boating, and skiing for the last two. So I am removing them also. I am intereste
 <img width="1980" height="1350" alt="image" src="https://github.com/user-attachments/assets/3064c9f5-0d12-4616-be6e-702bd18a2de6" />
 
 And with that, I am down to this! With an adjustment to the line plot binning, this is now the shape of my data:
+
+<img width="1980" height="1350" alt="image" src="https://github.com/user-attachments/assets/581d3fdd-25e3-45fd-ad94-3847782bdc38" />
+
