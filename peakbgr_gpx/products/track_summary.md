@@ -6,20 +6,18 @@ This report summarizes the timed Peakbagger GPX tracks in `peakbgr_gpx/gpx/`.
 
 The geographic distribution map is generated at [`wyoming_peakbagger_gpx_map.html`](wyoming_peakbagger_gpx_map.html). It uses a locally cached satellite background, dots at track centroids, dot size for mileage, and dot color for elevation gain.
 
-<img width="1840" height="1460" alt="image" src="https://github.com/user-attachments/assets/f00523e2-de7e-4329-9f12-15ca67e2617b" />
-
 ## Dataset Totals
 
-- Tracks summarized: 29
-- Total mileage: 366.77 mi
-- Total elevation gain: 142,621 ft
+- Tracks summarized: 28
+- Total mileage: 323.23 mi
+- Total elevation gain: 110,905 ft
 - Longest track: GannettPeak 2023 07 04 (51.56 mi)
-- Highest cumulative gain: RendezvousMountain 2024 01 26 (31,716 ft)
+- Highest cumulative gain: GannettPeak 2024 10 05 (10,404 ft)
 - Most GPX points: BuckMountain 2024 09 09 (3,000 points)
 
 ## Geographic Distribution
 
-- Western Wyoming / Teton-side tracks: 12
+- Western Wyoming / Teton-side tracks: 11
 - Central Wyoming tracks: 11
 - Eastern Wyoming tracks: 6
 - Southern Wyoming tracks: 5
@@ -52,7 +50,6 @@ CSV version: [`track_elevation_mileage_points.csv`](track_elevation_mileage_poin
 | NiobraraCountyHighPoint 2025 04 26 | 3.59 | 333 | 333 | 5456 | 6115 | 948 | 919 | 1.3 | 42.635127 | -104.585635 | NiobraraCountyHighPoint2025-04-26.gpx |
 | NorthBrecciaCliffs 2018 09 05 | 9.35 | 1383 | 1383 | 8822 | 11316 | 3891 | 3940 | 5.55 | 43.802179 | -110.105326 | NorthBrecciaCliffs2018-09-05.gpx |
 | OwlCreekMountainsHighPoint 2021 07 14 | 0.6 | 59 | 59 | 9482 | 9862 | 16 | 390 | 0.28 | 43.59796 | -108.792152 | OwlCreekMountainsHighPoint2021-07-14.gpx |
-| RendezvousMountain 2024 01 26 | 43.54 | 2848 | 2848 | 6312 | 10387 | 31716 | 31660 | 5.57 | 43.596239 | -110.845788 | RendezvousMountain2024-01-26.gpx |
 | RendezvousMountain 2025 08 02 | 5.29 | 1043 | 1043 | 6302 | 10446 | 4419 | 4436 | 1.75 | 43.593445 | -110.854096 | RendezvousMountain2025-08-02.gpx |
 | SepulcherMountain 2023 01 | 9.59 | 802 | 802 | 6280 | 9623 | 3819 | 3829 | 6.05 | 44.980198 | -110.738937 | SepulcherMountain2023-01.gpx |
 | SheepMountain EastPeak 2023 05 06 | 6.48 | 614 | 614 | 5594 | 7785 | 3491 | 3602 | 4.38 | 44.458604 | -109.301785 | SheepMountain-EastPeak2023-05-06.gpx |
