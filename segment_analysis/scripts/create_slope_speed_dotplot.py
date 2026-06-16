@@ -29,6 +29,8 @@ SECONDS_PER_HOUR = 3600.0
 ELEVATION_BINS = [f"{lower}-{lower + 1500}" for lower in range(5000, 14000, 1500)]
 ELEVATION_COLORS = ["#254b8f", "#2d7fb8", "#31a6a6", "#70bf73", "#d8c94f", "#e6853a"]
 SLOPE_AVERAGE_BIN_DEG = 10
+SLOPE_AVERAGE_MIN_DEG = -40
+SLOPE_AVERAGE_MAX_DEG = 40
 MIN_AVERAGE_BIN_COUNT_FOR_LINE = 50
 
 
@@ -212,11 +214,11 @@ def write_segments_csv(rows: list[dict[str, object]], path: Path) -> None:
         writer.writerows(rows)
 
 
-def binned_average_speed(rows: list[dict[str, object]], slope_limit: int) -> tuple[list[float], list[float], list[int]]:
+def binned_average_speed(rows: list[dict[str, object]]) -> tuple[list[float], list[float], list[int]]:
     centers: list[float] = []
     averages: list[float] = []
     counts: list[int] = []
-    for lower in range(-slope_limit, slope_limit, SLOPE_AVERAGE_BIN_DEG):
+    for lower in range(SLOPE_AVERAGE_MIN_DEG, SLOPE_AVERAGE_MAX_DEG, SLOPE_AVERAGE_BIN_DEG):
         upper = lower + SLOPE_AVERAGE_BIN_DEG
         matching = [
             float(row["speed_mph"])
@@ -231,8 +233,8 @@ def binned_average_speed(rows: list[dict[str, object]], slope_limit: int) -> tup
     return centers, averages, counts
 
 
-def write_average_speed_csv(rows: list[dict[str, object]], slope_limit: int, path: Path) -> None:
-    avg_x, avg_y, avg_counts = binned_average_speed(rows, slope_limit)
+def write_average_speed_csv(rows: list[dict[str, object]], path: Path) -> None:
+    avg_x, avg_y, avg_counts = binned_average_speed(rows)
     with path.open("w", newline="", encoding="utf-8") as fh:
         writer = csv.DictWriter(
             fh,
@@ -279,7 +281,7 @@ def plot_dotplot(rows: list[dict[str, object]], path: Path, max_speed_mph: float
     speeds = [float(row["speed_mph"]) for row in rows]
     max_abs_slope = max(abs(float(row["slope_angle_deg"])) for row in rows)
     slope_limit = min(90, max(10, math.ceil(max_abs_slope / 10) * 10))
-    avg_x, avg_y, avg_counts = binned_average_speed(rows, slope_limit)
+    avg_x, avg_y, avg_counts = binned_average_speed(rows)
     if avg_x:
         line_points = [
             (x, y, count)
@@ -311,7 +313,7 @@ def plot_dotplot(rows: list[dict[str, object]], path: Path, max_speed_mph: float
         0.01,
         0.01,
         f"Source: {len(rows):,} cleaned 40 m segments. "
-        f"Segments outside 5000-14000 ft or above {max_speed_mph:g} mph omitted. Black line shows {SLOPE_AVERAGE_BIN_DEG}° bin means with at least {MIN_AVERAGE_BIN_COUNT_FOR_LINE} segments.",
+        f"Segments outside 5000-14000 ft or above {max_speed_mph:g} mph omitted. Black line shows fixed {SLOPE_AVERAGE_BIN_DEG}° bin means from {SLOPE_AVERAGE_MIN_DEG}° to {SLOPE_AVERAGE_MAX_DEG}° with at least {MIN_AVERAGE_BIN_COUNT_FOR_LINE} segments.",
         fontsize=9,
         color="#555555",
     )
@@ -345,9 +347,7 @@ def main() -> int:
     average_csv_path = data_dir / args.average_csv
     png_path = products_dir / args.png
     write_segments_csv(rows, csv_path)
-    max_abs_slope = max(abs(float(row["slope_angle_deg"])) for row in rows)
-    slope_limit = min(90, max(10, math.ceil(max_abs_slope / 10) * 10))
-    write_average_speed_csv(rows, slope_limit, average_csv_path)
+    write_average_speed_csv(rows, average_csv_path)
     plot_dotplot(rows, png_path, args.max_speed_mph)
     print(f"Wrote {len(rows):,} segment rows to {csv_path}")
     print(f"Wrote 10-degree average speeds to {average_csv_path}")

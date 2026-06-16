@@ -1,6 +1,4 @@
 slope_bin_lower_deg,slope_bin_upper_deg,slope_bin_center_deg,mean_speed_mph,segment_count
--60,-50,-55.0,0.65,1
--50,-40,-45.0,0.52,9
 -40,-30,-35.0,0.826,88
 -30,-20,-25.0,1.124,258
 -20,-10,-15.0,1.848,742
@@ -9,4 +7,3 @@ slope_bin_lower_deg,slope_bin_upper_deg,slope_bin_center_deg,mean_speed_mph,segm
 10,20,15.0,1.314,704
 20,30,25.0,0.748,259
 30,40,35.0,0.65,91
-40,50,45.0,0.278,3
