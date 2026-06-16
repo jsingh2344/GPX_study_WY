@@ -16,7 +16,8 @@ GPX_DIR = PROJECT_DIR / "gpx"
 PRODUCTS_DIR = PROJECT_DIR / "products"
 MAP_PATH = PRODUCTS_DIR / "wyoming_peakbagger_gpx_map.html"
 CSV_PATH = PRODUCTS_DIR / "track_elevation_mileage_points.csv"
-MD_PATH = PRODUCTS_DIR / "track_summary.md"
+ROOT_MD_PATH = PROJECT_DIR / "track_summary.md"
+PRODUCTS_MD_PATH = PRODUCTS_DIR / "track_summary.md"
 
 Point = tuple[float, float, Optional[float], Optional[dt.datetime]]
 
@@ -175,14 +176,14 @@ def distribution_summary(rows: list[dict[str, object]]) -> list[str]:
     ]
 
 
-def write_markdown(rows: list[dict[str, object]]) -> None:
+def markdown_body(rows: list[dict[str, object]], md_path: Path) -> str:
     total_miles = sum(float(row["mileage"]) for row in rows)
     total_gain = sum(int(row["elevation_gain_ft"]) for row in rows)
     longest = max(rows, key=lambda row: float(row["mileage"]))
     most_gain = max(rows, key=lambda row: int(row["elevation_gain_ft"]))
     most_points = max(rows, key=lambda row: int(row["gpx_points"]))
-    map_rel = MAP_PATH.relative_to(MD_PATH.parent)
-    csv_rel = CSV_PATH.relative_to(MD_PATH.parent)
+    map_rel = MAP_PATH.relative_to(md_path.parent)
+    csv_rel = CSV_PATH.relative_to(md_path.parent)
     body = [
         "# Peakbagger GPX Track Summary",
         "",
@@ -212,7 +213,12 @@ def write_markdown(rows: list[dict[str, object]]) -> None:
         markdown_table(rows),
         "",
     ]
-    MD_PATH.write_text("\n".join(body), encoding="utf-8")
+    return "\n".join(body)
+
+
+def write_markdown(rows: list[dict[str, object]]) -> None:
+    ROOT_MD_PATH.write_text(markdown_body(rows, ROOT_MD_PATH), encoding="utf-8")
+    PRODUCTS_MD_PATH.write_text(markdown_body(rows, PRODUCTS_MD_PATH), encoding="utf-8")
 
 
 def main() -> int:
@@ -223,7 +229,8 @@ def main() -> int:
     write_csv(rows)
     write_markdown(rows)
     print(f"Wrote {len(rows)} rows to {CSV_PATH}")
-    print(f"Wrote summary to {MD_PATH}")
+    print(f"Wrote summary to {ROOT_MD_PATH}")
+    print(f"Wrote products summary to {PRODUCTS_MD_PATH}")
     return 0
 
 
