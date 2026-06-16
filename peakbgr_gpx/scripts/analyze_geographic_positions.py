@@ -135,24 +135,48 @@ MAP_SOUTH = 40.85
 MAP_NORTH = 45.05
 MAP_X = 0.0
 MAP_Y = 0.0
-MAP_WIDTH = 1400.0
-MAP_HEIGHT = 900.0
+MAP_WIDTH = 800.0
+WEB_MERCATOR_RADIUS_M = 6_378_137.0
 SATELLITE_CACHE = "wyoming_satellite_background.png"
 
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = SCRIPT_DIR.parent
+DEFAULT_GPX_DIR = PROJECT_DIR / "gpx"
+DEFAULT_PRODUCTS_DIR = PROJECT_DIR / "products"
+DEFAULT_REF_DIR = PROJECT_DIR / "ref"
+
+
+def mercator_x(lon: float) -> float:
+    return WEB_MERCATOR_RADIUS_M * math.radians(lon)
+
+
+def mercator_y(lat: float) -> float:
+    clamped = max(min(lat, 85.05112878), -85.05112878)
+    return WEB_MERCATOR_RADIUS_M * math.log(math.tan(math.pi / 4 + math.radians(clamped) / 2))
+
+
+MERCATOR_WEST = mercator_x(MAP_WEST)
+MERCATOR_EAST = mercator_x(MAP_EAST)
+MERCATOR_SOUTH = mercator_y(MAP_SOUTH)
+MERCATOR_NORTH = mercator_y(MAP_NORTH)
+MAP_HEIGHT = round(MAP_WIDTH * ((MERCATOR_NORTH - MERCATOR_SOUTH) / (MERCATOR_EAST - MERCATOR_WEST)))
+
+
 def project(lat: float, lon: float) -> tuple[float, float]:
-    x = MAP_X + ((lon - MAP_WEST) / (MAP_EAST - MAP_WEST)) * MAP_WIDTH
-    y = MAP_Y + ((MAP_NORTH - lat) / (MAP_NORTH - MAP_SOUTH)) * MAP_HEIGHT
+    x = MAP_X + ((mercator_x(lon) - MERCATOR_WEST) / (MERCATOR_EAST - MERCATOR_WEST)) * MAP_WIDTH
+    y = MAP_Y + ((MERCATOR_NORTH - mercator_y(lat)) / (MERCATOR_NORTH - MERCATOR_SOUTH)) * MAP_HEIGHT
     return x, y
 
 
-def satellite_background_data_uri(cache_dir: Path) -> str:
-    cache_path = cache_dir / SATELLITE_CACHE
+def satellite_background_data_uri(ref_dir: Path) -> str:
+    ref_dir.mkdir(parents=True, exist_ok=True)
+    cache_path = ref_dir / SATELLITE_CACHE
     if not cache_path.exists():
         url = (
             "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export"
-            f"?bbox={MAP_WEST},{MAP_SOUTH},{MAP_EAST},{MAP_NORTH}"
-            "&bboxSR=4326&imageSR=4326&size=1400,900&format=png32&f=image"
+            f"?bbox={MERCATOR_WEST},{MERCATOR_SOUTH},{MERCATOR_EAST},{MERCATOR_NORTH}"
+            f"&bboxSR=3857&imageSR=3857&size={int(MAP_WIDTH)},{int(MAP_HEIGHT)}&format=png32&f=image"
         )
         request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urlopen(request, timeout=90) as response:
@@ -191,7 +215,7 @@ def load_tracks(gpx_dir: Path) -> list[dict[str, object]]:
     return tracks
 
 
-def render_map(tracks: list[dict[str, object]]) -> str:
+def render_map(tracks: list[dict[str, object]], ref_dir: Path) -> str:
     distances = [float(track["distance_mi"]) for track in tracks]
     gains = [float(track["gain_ft"]) for track in tracks]
     min_distance = min(distances)
@@ -201,7 +225,7 @@ def render_map(tracks: list[dict[str, object]]) -> str:
         track["radius"] = marker_radius(float(track["distance_mi"]), min_distance, max_distance)
         track["color"] = color_for_gain(float(track["gain_ft"]), max_gain)
 
-    background_uri = satellite_background_data_uri(Path(__file__).resolve().parent)
+    background_uri = satellite_background_data_uri(ref_dir)
     sorted_tracks = sorted(tracks, key=lambda item: float(item["radius"]), reverse=True)
     marker_svg = []
     for track in sorted_tracks:
@@ -237,7 +261,7 @@ def render_map(tracks: list[dict[str, object]]) -> str:
     }}
     .map-frame {{
       position: relative;
-      width: min(100%, 1500px);
+      width: min(100%, 920px);
       margin: 0 auto;
       background: #f8faf6;
       border: 1px solid rgba(27, 37, 45, 0.2);
@@ -256,7 +280,7 @@ def render_map(tracks: list[dict[str, object]]) -> str:
       position: absolute;
       right: 16px;
       top: 16px;
-      width: 285px;
+      width: 250px;
       color: #f4f1e8;
       background: rgba(13, 18, 20, 0.80);
       border: 1px solid rgba(255, 255, 255, 0.18);
@@ -266,12 +290,12 @@ def render_map(tracks: list[dict[str, object]]) -> str:
     }}
     .panel h1 {{
       margin: 0 0 7px;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.2;
     }}
     .panel p {{
       margin: 5px 0;
-      font-size: 12px;
+      font-size: 11px;
       line-height: 1.35;
     }}
     .legend-row {{
@@ -279,11 +303,11 @@ def render_map(tracks: list[dict[str, object]]) -> str:
       align-items: center;
       gap: 8px;
       margin-top: 8px;
-      font-size: 12px;
+      font-size: 11px;
     }}
     .ramp {{
       height: 10px;
-      width: 132px;
+      width: 110px;
       border-radius: 999px;
       background: linear-gradient(90deg, #2e55b2 0%, #2582bd 20%, #2fae9c 40%, #b6c94b 60%, #dc8c26 80%, #b22e35 100%);
     }}
@@ -303,8 +327,8 @@ def render_map(tracks: list[dict[str, object]]) -> str:
 <body>
   <main class="page">
     <div class="map-frame">
-      <svg viewBox="0 0 1400 900" role="img" aria-label="Wyoming map with 29 GPX track pointers">
-        <image class="static-map-bg" href="{background_uri}" x="0" y="0" width="1400" height="900"/>
+      <svg viewBox="0 0 {int(MAP_WIDTH)} {int(MAP_HEIGHT)}" role="img" aria-label="Wyoming map with 29 GPX track pointers">
+        <image class="static-map-bg" href="{background_uri}" x="0" y="0" width="{int(MAP_WIDTH)}" height="{int(MAP_HEIGHT)}"/>
         <g class="track-markers">
           {''.join(marker_svg)}
         </g>
@@ -330,17 +354,22 @@ def render_map(tracks: list[dict[str, object]]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--gpx-dir", default="gpx", help="Directory containing the 29 GPX files")
-    parser.add_argument("--out", default="wyoming_peakbagger_gpx_map.html", help="Output HTML map")
+    parser.add_argument("--gpx-dir", default=str(DEFAULT_GPX_DIR), help="Directory containing the 29 GPX files")
+    parser.add_argument("--out-dir", default=str(DEFAULT_PRODUCTS_DIR), help="Directory for generated map products")
+    parser.add_argument("--ref-dir", default=str(DEFAULT_REF_DIR), help="Directory for cached reference imagery")
+    parser.add_argument("--out", default="wyoming_peakbagger_gpx_map.html", help="Output HTML map filename or path")
     args = parser.parse_args()
 
-    base_dir = Path(__file__).resolve().parent
-    gpx_dir = (base_dir / args.gpx_dir).resolve()
-    out_path = (base_dir / args.out).resolve()
+    gpx_dir = Path(args.gpx_dir).expanduser().resolve()
+    out_dir = Path(args.out_dir).expanduser().resolve()
+    ref_dir = Path(args.ref_dir).expanduser().resolve()
+    out_arg = Path(args.out).expanduser()
+    out_path = out_arg.resolve() if out_arg.is_absolute() or out_arg.parent != Path(".") else (out_dir / out_arg).resolve()
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     tracks = load_tracks(gpx_dir)
     if not tracks:
         raise SystemExit(f"No GPX tracks found in {gpx_dir}")
-    out_path.write_text(render_map(tracks), encoding="utf-8")
+    out_path.write_text(render_map(tracks, ref_dir), encoding="utf-8")
     print(f"Wrote {len(tracks)} GPX pointers to {out_path}")
     return 0
 
