@@ -67,3 +67,8 @@ CSV version: [`products/track_elevation_mileage_points.csv`](products/track_elev
 <img width="2160" height="1260" alt="image" src="https://github.com/user-attachments/assets/e054de65-33a6-4fbc-9be1-714b6acaf97a" />
 
 
+## GPX Cleaning Note
+
+Several source Peakbagger GPX files contain many consecutive trackpoints with the same timestamp. Those duplicate timestamps create artificial speed bands during 40 m segment analysis, especially at values like 1.491 mph where a segment appears to take exactly 60 seconds. To preserve the original dataset while making speed analysis cleaner, duplicate-timestamp points were removed from copied GPX files only.
+
+The original GPX files remain in [`gpx/`](gpx/). Cleaned GPX copies are in [`gpx_cleaned/`](gpx_cleaned/), and the cleaning summary is in [`products/gpx_duplicate_timestamp_cleaning_summary.csv`](products/gpx_duplicate_timestamp_cleaning_summary.csv).
