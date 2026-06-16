@@ -8,9 +8,9 @@ The geographic distribution map is generated at [`wyoming_peakbagger_gpx_map.htm
 
 ## Dataset Totals
 
-- Tracks summarized: 28
-- Total mileage: 323.23 mi
-- Total elevation gain: 110,905 ft
+- Tracks summarized: 27
+- Total mileage: 311.06 mi
+- Total elevation gain: 106,732 ft
 - Longest track: GannettPeak 2023 07 04 (51.56 mi)
 - Highest cumulative gain: GannettPeak 2024 10 05 (10,404 ft)
 - Most GPX points: BuckMountain 2024 09 09 (3,000 points)
@@ -18,10 +18,10 @@ The geographic distribution map is generated at [`wyoming_peakbagger_gpx_map.htm
 ## Geographic Distribution
 
 - Western Wyoming / Teton-side tracks: 11
-- Central Wyoming tracks: 11
+- Central Wyoming tracks: 10
 - Eastern Wyoming tracks: 6
 - Southern Wyoming tracks: 5
-- Northern Wyoming tracks: 6
+- Northern Wyoming tracks: 5
 
 ## Full Table
 
@@ -55,5 +55,4 @@ CSV version: [`track_elevation_mileage_points.csv`](track_elevation_mileage_poin
 | SheepMountain EastPeak 2023 05 06 | 6.48 | 614 | 614 | 5594 | 7785 | 3491 | 3602 | 4.38 | 44.458604 | -109.301785 | SheepMountain-EastPeak2023-05-06.gpx |
 | SubletteMountain 2021 06 13 | 8.43 | 2102 | 2102 | 6345 | 9314 | 4117 | 4157 | 2.83 | 42.270188 | -111.001448 | SubletteMountain2021-06-13.gpx |
 | SublettePeak 2024 07 13 | 2.26 | 802 | 802 | 9462 | 10571 | 1568 | 1522 | 2.08 | 43.746979 | -110.035758 | SublettePeak2024-07-13.gpx |
-| TroutPeak 2021 07 03 | 12.17 | 1650 | 1443 | 0 | 12244 | 4173 | 12454 | 8.85 | 44.58547 | -109.498809 | TroutPeak2021-07-03.gpx |
 | WindRiverPeak 2025 08 08 | 13.98 | 2742 | 2742 | 9711 | 13209 | 4659 | 4685 | 11.1 | 42.726834 | -109.160621 | WindRiverPeak2025-08-08.gpx |
