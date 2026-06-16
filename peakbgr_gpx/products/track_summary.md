@@ -4,7 +4,7 @@ This report summarizes the timed Peakbagger GPX tracks in `peakbgr_gpx/gpx/`.
 
 ## Map
 
-The geographic distribution map is generated at [`products/wyoming_peakbagger_gpx_map.html`](products/wyoming_peakbagger_gpx_map.html). It uses a locally cached satellite background, dots at track centroids, dot size for mileage, and dot color for elevation gain.
+The geographic distribution map is generated at [`wyoming_peakbagger_gpx_map.html`](wyoming_peakbagger_gpx_map.html). It uses a locally cached satellite background, dots at track centroids, dot size for mileage, and dot color for elevation gain.
 
 ## Dataset Totals
 
@@ -25,7 +25,7 @@ The geographic distribution map is generated at [`products/wyoming_peakbagger_gp
 
 ## Full Table
 
-CSV version: [`products/track_elevation_mileage_points.csv`](products/track_elevation_mileage_points.csv)
+CSV version: [`track_elevation_mileage_points.csv`](track_elevation_mileage_points.csv)
 
 | track | mileage | gpx_points | time_points | min_elevation_ft | max_elevation_ft | elevation_gain_ft | elevation_loss_ft | elapsed_hours | centroid_lat | centroid_lon | file |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
