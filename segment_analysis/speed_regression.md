@@ -49,3 +49,23 @@ These variables have lots of covariance. So I tried a ridge regression model nex
 - Slope is now included as a classifier variable (e.g. -40 to -30, -30 to -20, etc.) to model non-linear effect of hiking grade (currently, the model is forced to regard slope largely as a linear effect across these different variables)
 - Now cross-validating with different test sets. Previously, randomly held out 5 GPX tracks as the test set. Holding out segments individually didn't work as well because several tracks are in the same place. ** Now, trying leave-one-out cross validation to stabilize error values.
 - Also, testing to find the most predictive alpha for the ridge regression among ``` 0, 0.01, 0.1, 1, 10, 100, 1000 ```
+
+And it didn't go well. 
+<img width="1260" height="1260" alt="image" src="https://github.com/user-attachments/assets/bbd02c61-1df8-420a-aae5-db0641789f33" />
+
+```
+alpha	rmse_mph	mae_mph	r2
+0	1.1757	0.8811	0.2323
+0.01	1.1757	0.8811	0.2323
+0.1	1.1757	0.8811	0.2323
+1	1.1756	0.881	0.2324
+10	1.1754	0.8805	0.2327
+100	1.1759	0.8803	0.232
+1000	1.1815	0.8859	0.2247
+```
+
+Potentially this is mainly because of switching to leave-one-out CV. Going to try again with a few changes:
+- elevation, slope-bin indicators, elevation × uphill slope will be the only predictors
+- Switching to predicting log speed, since speed >= 0
+- Exclude segments under 0.2. I will assume these are 'resting' and thus aren't relevant for the ultimate goal of
+  deriving a terrain 'difficulty' prediction
