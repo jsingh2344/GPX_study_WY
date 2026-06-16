@@ -38,3 +38,7 @@ Test R^2: 0.581
 <img width="1260" height="1260" alt="image" src="https://github.com/user-attachments/assets/1c763980-d844-481e-88af-fc3512710b97" />
 
 Mild improvement! The model at least is now making predictions out to 4 mph, while it was more conservative before.
+
+Also, a few notes:
+- Plugging in a 0 slope and 5000 feet gives: ``` 5.4301 - 0.000258 * 5000 = 4.14 mph ```
+- A 30 percent uphill grade at 13000 feet gives 0.5 mph
