@@ -23,4 +23,9 @@ they were on a ski lift. After removing this track, I finally got this distribut
 
 <img width="1980" height="1350" alt="image" src="https://github.com/user-attachments/assets/d648cc07-2ba8-453d-9643-c999806e8fc1" />
 
-Which reflects pretty closely what I'd expect.
+Which reflects pretty closely what I'd expect. Also, average splits at degree bands check out:
+
+<img width="1980" height="1350" alt="image" src="https://github.com/user-attachments/assets/dae92822-c20d-401e-a08c-bf87274512b0" />
+
+Going downhill is faster! The last thing I want to check out still is the number of segments above 10 mph.
+
