@@ -18,6 +18,7 @@ COEFFICIENTS = ROOT / "data" / "ridge_speed_coefficients.csv"
 PLOT = ROOT / "products" / "ridge_speed_actual_vs_predicted.png"
 
 ALPHAS = [0, 0.01, 0.1, 1, 10, 100, 1000]
+MIN_SPEED_MPH = 0.2
 SLOPE_BINS = [(-40, -30), (-30, -20), (-20, -10), (-10, 0), (0, 10), (10, 20), (20, 30), (30, 40)]
 
 
@@ -27,25 +28,22 @@ def read_rows() -> list[dict[str, object]]:
         for row in csv.DictReader(fh):
             slope = float(row["slope_angle_deg"])
             elevation = float(row["midpoint_elevation_ft"])
+            speed = float(row["speed_mph"])
+            if speed < MIN_SPEED_MPH:
+                continue
             rows.append(
                 {
                     "file": row["file"],
                     "slope": slope,
                     "elevation": elevation,
-                    "speed": float(row["speed_mph"]),
+                    "speed": speed,
                 }
             )
     return rows
 
 
 def feature_names() -> list[str]:
-    names = [
-        "elevation",
-        "uphill_slope",
-        "downhill_slope",
-        "slope_squared",
-        "elevation_x_uphill_slope",
-    ]
+    names = ["elevation", "elevation_x_uphill_slope"]
     names += [f"slope_bin_{low}_to_{high}" for low, high in SLOPE_BINS]
     return names
 
@@ -53,13 +51,7 @@ def feature_names() -> list[str]:
 def features(row: dict[str, object]) -> list[float]:
     slope = float(row["slope"])
     elevation = float(row["elevation"])
-    values = [
-        elevation,
-        max(slope, 0.0),
-        max(-slope, 0.0),
-        slope**2,
-        elevation * max(slope, 0.0),
-    ]
+    values = [elevation, elevation * max(slope, 0.0)]
     values += [1.0 if low <= slope < high else 0.0 for low, high in SLOPE_BINS]
     return values
 
@@ -70,6 +62,10 @@ def matrix(rows: list[dict[str, object]]) -> np.ndarray:
 
 def speeds(rows: list[dict[str, object]]) -> np.ndarray:
     return np.array([row["speed"] for row in rows], dtype=float)
+
+
+def log_speeds(rows: list[dict[str, object]]) -> np.ndarray:
+    return np.log(speeds(rows))
 
 
 def standardize(train_x: np.ndarray, test_x: np.ndarray) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
@@ -106,8 +102,8 @@ def cross_validate(rows: list[dict[str, object]], alpha: float) -> tuple[float, 
         train = [row for row in rows if row["file"] != test_file]
         test = [row for row in rows if row["file"] == test_file]
         train_x, test_x, _, _ = standardize(matrix(train), matrix(test))
-        coefficients = fit_ridge(train_x, speeds(train), alpha)
-        predicted = predict(test_x, coefficients)
+        coefficients = fit_ridge(train_x, log_speeds(train), alpha)
+        predicted = np.exp(predict(test_x, coefficients))
         for row, pred in zip(test, predicted):
             predictions.append({**row, "predicted": float(pred), "alpha": alpha})
 
@@ -126,17 +122,17 @@ def write_csv(path: Path, rows: list[dict[str, object]], fieldnames: list[str]) 
 
 def write_coefficients(rows: list[dict[str, object]], alpha: float) -> None:
     x = matrix(rows)
-    y = speeds(rows)
+    y = log_speeds(rows)
     scaled_x, _, means, stds = standardize(x, x)
     coefficients = fit_ridge(scaled_x, y, alpha)
     original = coefficients[1:] / stds
     intercept = coefficients[0] - sum(float(coef * mean) for coef, mean in zip(original, means))
-    out_rows = [{"feature": "intercept", "coefficient": round(float(intercept), 8)}]
+    out_rows = [{"feature": "intercept", "coefficient": round(float(intercept), 8), "scale": "log_speed"}]
     out_rows += [
-        {"feature": name, "coefficient": round(float(coef), 8)}
+        {"feature": name, "coefficient": round(float(coef), 8), "scale": "log_speed"}
         for name, coef in zip(feature_names(), original)
     ]
-    write_csv(COEFFICIENTS, out_rows, ["feature", "coefficient"])
+    write_csv(COEFFICIENTS, out_rows, ["feature", "coefficient", "scale"])
 
 
 def plot_predictions(rows: list[dict[str, object]]) -> None:
@@ -151,7 +147,7 @@ def plot_predictions(rows: list[dict[str, object]]) -> None:
     ax.set_ylim(0, limit)
     ax.set_xlabel("Actual speed (mph)")
     ax.set_ylabel("Predicted speed (mph)")
-    ax.set_title("Ridge Regression: Leave-One-Track-Out Predictions")
+    ax.set_title("Log-Speed Ridge Regression: Leave-One-Track-Out Predictions")
     ax.grid(alpha=0.25)
     fig.tight_layout()
     fig.savefig(PLOT)
@@ -189,7 +185,7 @@ def main() -> int:
     write_coefficients(rows, best_alpha)
     plot_predictions(best_predictions)
 
-    print(f"Rows: {len(rows):,}; tracks: {len(set(row['file'] for row in rows))}")
+    print(f"Rows: {len(rows):,}; tracks: {len(set(row['file'] for row in rows))}; minimum speed: {MIN_SPEED_MPH:g} mph")
     print(f"Best alpha: {best_alpha:g}")
     print(f"Leave-one-track-out RMSE: {best['rmse_mph']:.3f} mph")
     print(f"Leave-one-track-out MAE: {best['mae_mph']:.3f} mph")

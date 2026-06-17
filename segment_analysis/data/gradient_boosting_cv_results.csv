@@ -1,0 +1,2 @@
+model,n_estimators,learning_rate,rmse_mph,mae_mph,r2
+"40 trees, lr=0.08",40,0.08,1.2317,0.901,0.1376
