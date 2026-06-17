@@ -1,0 +1,1928 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:gpx xmlns:ns0="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="StravaGPX" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <ns0:metadata>
+  <ns0:time>2023-08-21T12:04:59Z</ns0:time>
+ </ns0:metadata>
+ <ns0:trk>
+  <ns0:name>the Cathedral</ns0:name>
+  <ns0:type>running</ns0:type>
+  <ns0:trkseg>
+   <ns0:trkpt lat="40.4470120" lon="-79.9453570">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:04:59Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470650" lon="-79.9452530">
+    <ns0:ele>275.8</ns0:ele>
+    <ns0:time>2023-08-21T12:05:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470590" lon="-79.9451350">
+    <ns0:ele>276.5</ns0:ele>
+    <ns0:time>2023-08-21T12:05:05Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471020" lon="-79.9449380">
+    <ns0:ele>276.7</ns0:ele>
+    <ns0:time>2023-08-21T12:05:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471080" lon="-79.9447990">
+    <ns0:ele>276.9</ns0:ele>
+    <ns0:time>2023-08-21T12:05:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471210" lon="-79.9446730">
+    <ns0:ele>277.1</ns0:ele>
+    <ns0:time>2023-08-21T12:05:16Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471400" lon="-79.9445250">
+    <ns0:ele>277.4</ns0:ele>
+    <ns0:time>2023-08-21T12:05:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471460" lon="-79.9443920">
+    <ns0:ele>277.6</ns0:ele>
+    <ns0:time>2023-08-21T12:05:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471770" lon="-79.9442490">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:05:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471900" lon="-79.9441310">
+    <ns0:ele>278.0</ns0:ele>
+    <ns0:time>2023-08-21T12:05:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472050" lon="-79.9439710">
+    <ns0:ele>278.3</ns0:ele>
+    <ns0:time>2023-08-21T12:05:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472210" lon="-79.9438240">
+    <ns0:ele>278.5</ns0:ele>
+    <ns0:time>2023-08-21T12:05:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472510" lon="-79.9437120">
+    <ns0:ele>278.7</ns0:ele>
+    <ns0:time>2023-08-21T12:05:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472520" lon="-79.9435650">
+    <ns0:ele>279.0</ns0:ele>
+    <ns0:time>2023-08-21T12:05:46Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472540" lon="-79.9434130">
+    <ns0:ele>279.3</ns0:ele>
+    <ns0:time>2023-08-21T12:05:50Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472600" lon="-79.9432570">
+    <ns0:ele>279.6</ns0:ele>
+    <ns0:time>2023-08-21T12:05:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472520" lon="-79.9431190">
+    <ns0:ele>279.9</ns0:ele>
+    <ns0:time>2023-08-21T12:05:56Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472470" lon="-79.9429770">
+    <ns0:ele>280.2</ns0:ele>
+    <ns0:time>2023-08-21T12:06:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472300" lon="-79.9428060">
+    <ns0:ele>280.5</ns0:ele>
+    <ns0:time>2023-08-21T12:06:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472630" lon="-79.9426400">
+    <ns0:ele>280.8</ns0:ele>
+    <ns0:time>2023-08-21T12:06:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472870" lon="-79.9425080">
+    <ns0:ele>281.2</ns0:ele>
+    <ns0:time>2023-08-21T12:06:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471880" lon="-79.9424720">
+    <ns0:ele>281.6</ns0:ele>
+    <ns0:time>2023-08-21T12:06:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470860" lon="-79.9424870">
+    <ns0:ele>281.7</ns0:ele>
+    <ns0:time>2023-08-21T12:06:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4469920" lon="-79.9424830">
+    <ns0:ele>282.0</ns0:ele>
+    <ns0:time>2023-08-21T12:06:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4468910" lon="-79.9424730">
+    <ns0:ele>282.2</ns0:ele>
+    <ns0:time>2023-08-21T12:06:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4467760" lon="-79.9424740">
+    <ns0:ele>282.5</ns0:ele>
+    <ns0:time>2023-08-21T12:06:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4466700" lon="-79.9424940">
+    <ns0:ele>282.7</ns0:ele>
+    <ns0:time>2023-08-21T12:06:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4465600" lon="-79.9424960">
+    <ns0:ele>283.0</ns0:ele>
+    <ns0:time>2023-08-21T12:06:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4464550" lon="-79.9424890">
+    <ns0:ele>283.3</ns0:ele>
+    <ns0:time>2023-08-21T12:06:40Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4463310" lon="-79.9424910">
+    <ns0:ele>283.6</ns0:ele>
+    <ns0:time>2023-08-21T12:06:44Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4462160" lon="-79.9425200">
+    <ns0:ele>283.8</ns0:ele>
+    <ns0:time>2023-08-21T12:06:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4461110" lon="-79.9425350">
+    <ns0:ele>284.0</ns0:ele>
+    <ns0:time>2023-08-21T12:06:51Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4459910" lon="-79.9424920">
+    <ns0:ele>284.3</ns0:ele>
+    <ns0:time>2023-08-21T12:06:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4458940" lon="-79.9424920">
+    <ns0:ele>284.5</ns0:ele>
+    <ns0:time>2023-08-21T12:06:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4457930" lon="-79.9425000">
+    <ns0:ele>284.6</ns0:ele>
+    <ns0:time>2023-08-21T12:07:01Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4457000" lon="-79.9425470">
+    <ns0:ele>284.7</ns0:ele>
+    <ns0:time>2023-08-21T12:07:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4455970" lon="-79.9426100">
+    <ns0:ele>284.9</ns0:ele>
+    <ns0:time>2023-08-21T12:07:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4455220" lon="-79.9426840">
+    <ns0:ele>285.0</ns0:ele>
+    <ns0:time>2023-08-21T12:07:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4454120" lon="-79.9427090">
+    <ns0:ele>285.1</ns0:ele>
+    <ns0:time>2023-08-21T12:07:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4453110" lon="-79.9427640">
+    <ns0:ele>285.1</ns0:ele>
+    <ns0:time>2023-08-21T12:07:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4452180" lon="-79.9427960">
+    <ns0:ele>285.2</ns0:ele>
+    <ns0:time>2023-08-21T12:07:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4451070" lon="-79.9428590">
+    <ns0:ele>285.4</ns0:ele>
+    <ns0:time>2023-08-21T12:07:24Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4450130" lon="-79.9428900">
+    <ns0:ele>285.5</ns0:ele>
+    <ns0:time>2023-08-21T12:07:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4449180" lon="-79.9429510">
+    <ns0:ele>285.6</ns0:ele>
+    <ns0:time>2023-08-21T12:07:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4448250" lon="-79.9429890">
+    <ns0:ele>285.7</ns0:ele>
+    <ns0:time>2023-08-21T12:07:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447360" lon="-79.9430400">
+    <ns0:ele>285.6</ns0:ele>
+    <ns0:time>2023-08-21T12:07:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446740" lon="-79.9431540">
+    <ns0:ele>285.2</ns0:ele>
+    <ns0:time>2023-08-21T12:07:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447030" lon="-79.9432960">
+    <ns0:ele>284.7</ns0:ele>
+    <ns0:time>2023-08-21T12:07:47Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447450" lon="-79.9434170">
+    <ns0:ele>284.1</ns0:ele>
+    <ns0:time>2023-08-21T12:07:50Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447690" lon="-79.9435340">
+    <ns0:ele>283.6</ns0:ele>
+    <ns0:time>2023-08-21T12:07:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447720" lon="-79.9436670">
+    <ns0:ele>283.2</ns0:ele>
+    <ns0:time>2023-08-21T12:07:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447520" lon="-79.9437940">
+    <ns0:ele>282.8</ns0:ele>
+    <ns0:time>2023-08-21T12:08:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447260" lon="-79.9439190">
+    <ns0:ele>282.5</ns0:ele>
+    <ns0:time>2023-08-21T12:08:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447180" lon="-79.9440730">
+    <ns0:ele>282.0</ns0:ele>
+    <ns0:time>2023-08-21T12:08:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446910" lon="-79.9442160">
+    <ns0:ele>281.6</ns0:ele>
+    <ns0:time>2023-08-21T12:08:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447020" lon="-79.9443810">
+    <ns0:ele>281.0</ns0:ele>
+    <ns0:time>2023-08-21T12:08:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447140" lon="-79.9445080">
+    <ns0:ele>280.6</ns0:ele>
+    <ns0:time>2023-08-21T12:08:18Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447180" lon="-79.9446480">
+    <ns0:ele>280.2</ns0:ele>
+    <ns0:time>2023-08-21T12:08:21Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446980" lon="-79.9447980">
+    <ns0:ele>279.8</ns0:ele>
+    <ns0:time>2023-08-21T12:08:25Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446890" lon="-79.9449370">
+    <ns0:ele>279.3</ns0:ele>
+    <ns0:time>2023-08-21T12:08:28Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446650" lon="-79.9450670">
+    <ns0:ele>278.8</ns0:ele>
+    <ns0:time>2023-08-21T12:08:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446620" lon="-79.9452140">
+    <ns0:ele>278.3</ns0:ele>
+    <ns0:time>2023-08-21T12:08:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446610" lon="-79.9453340">
+    <ns0:ele>277.9</ns0:ele>
+    <ns0:time>2023-08-21T12:08:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446310" lon="-79.9454600">
+    <ns0:ele>277.5</ns0:ele>
+    <ns0:time>2023-08-21T12:08:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445940" lon="-79.9455950">
+    <ns0:ele>277.1</ns0:ele>
+    <ns0:time>2023-08-21T12:08:49Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445740" lon="-79.9457110">
+    <ns0:ele>276.7</ns0:ele>
+    <ns0:time>2023-08-21T12:08:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445860" lon="-79.9458300">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:08:56Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446340" lon="-79.9459400">
+    <ns0:ele>276.0</ns0:ele>
+    <ns0:time>2023-08-21T12:08:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446550" lon="-79.9460630">
+    <ns0:ele>275.8</ns0:ele>
+    <ns0:time>2023-08-21T12:09:01Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446280" lon="-79.9461980">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:09:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446030" lon="-79.9463580">
+    <ns0:ele>275.6</ns0:ele>
+    <ns0:time>2023-08-21T12:09:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446000" lon="-79.9465070">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:09:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445670" lon="-79.9466170">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:09:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445350" lon="-79.9467330">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:09:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445200" lon="-79.9468650">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:09:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444860" lon="-79.9470000">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:09:24Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444970" lon="-79.9471680">
+    <ns0:ele>275.3</ns0:ele>
+    <ns0:time>2023-08-21T12:09:28Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445470" lon="-79.9472750">
+    <ns0:ele>275.2</ns0:ele>
+    <ns0:time>2023-08-21T12:09:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445730" lon="-79.9474150">
+    <ns0:ele>275.2</ns0:ele>
+    <ns0:time>2023-08-21T12:09:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445650" lon="-79.9475540">
+    <ns0:ele>275.3</ns0:ele>
+    <ns0:time>2023-08-21T12:09:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445360" lon="-79.9476820">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:09:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445280" lon="-79.9478130">
+    <ns0:ele>275.6</ns0:ele>
+    <ns0:time>2023-08-21T12:09:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445010" lon="-79.9479260">
+    <ns0:ele>275.7</ns0:ele>
+    <ns0:time>2023-08-21T12:09:46Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444810" lon="-79.9480880">
+    <ns0:ele>275.9</ns0:ele>
+    <ns0:time>2023-08-21T12:09:50Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444630" lon="-79.9482070">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:09:54Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444410" lon="-79.9483440">
+    <ns0:ele>276.2</ns0:ele>
+    <ns0:time>2023-08-21T12:09:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444500" lon="-79.9484920">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:10:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445160" lon="-79.9486050">
+    <ns0:ele>276.5</ns0:ele>
+    <ns0:time>2023-08-21T12:10:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445570" lon="-79.9487140">
+    <ns0:ele>276.7</ns0:ele>
+    <ns0:time>2023-08-21T12:10:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444660" lon="-79.9488080">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:10:19Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444220" lon="-79.9489400">
+    <ns0:ele>276.5</ns0:ele>
+    <ns0:time>2023-08-21T12:10:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4443790" lon="-79.9490650">
+    <ns0:ele>276.5</ns0:ele>
+    <ns0:time>2023-08-21T12:10:26Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4443260" lon="-79.9491890">
+    <ns0:ele>276.3</ns0:ele>
+    <ns0:time>2023-08-21T12:10:29Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4443170" lon="-79.9493230">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:10:32Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442840" lon="-79.9494800">
+    <ns0:ele>275.9</ns0:ele>
+    <ns0:time>2023-08-21T12:10:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442640" lon="-79.9496120">
+    <ns0:ele>275.8</ns0:ele>
+    <ns0:time>2023-08-21T12:10:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442570" lon="-79.9497590">
+    <ns0:ele>275.6</ns0:ele>
+    <ns0:time>2023-08-21T12:10:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442280" lon="-79.9498880">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:10:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441830" lon="-79.9500440">
+    <ns0:ele>275.1</ns0:ele>
+    <ns0:time>2023-08-21T12:10:49Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441480" lon="-79.9502000">
+    <ns0:ele>274.8</ns0:ele>
+    <ns0:time>2023-08-21T12:10:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441010" lon="-79.9503450">
+    <ns0:ele>274.6</ns0:ele>
+    <ns0:time>2023-08-21T12:10:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440650" lon="-79.9504730">
+    <ns0:ele>274.4</ns0:ele>
+    <ns0:time>2023-08-21T12:11:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440210" lon="-79.9506070">
+    <ns0:ele>274.2</ns0:ele>
+    <ns0:time>2023-08-21T12:11:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440280" lon="-79.9507260">
+    <ns0:ele>274.1</ns0:ele>
+    <ns0:time>2023-08-21T12:11:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440270" lon="-79.9508460">
+    <ns0:ele>274.2</ns0:ele>
+    <ns0:time>2023-08-21T12:11:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439730" lon="-79.9509500">
+    <ns0:ele>273.8</ns0:ele>
+    <ns0:time>2023-08-21T12:11:24Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439480" lon="-79.9510760">
+    <ns0:ele>273.6</ns0:ele>
+    <ns0:time>2023-08-21T12:11:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439080" lon="-79.9512000">
+    <ns0:ele>273.4</ns0:ele>
+    <ns0:time>2023-08-21T12:11:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4438640" lon="-79.9513260">
+    <ns0:ele>273.3</ns0:ele>
+    <ns0:time>2023-08-21T12:11:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4438310" lon="-79.9514700">
+    <ns0:ele>273.2</ns0:ele>
+    <ns0:time>2023-08-21T12:11:37Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437690" lon="-79.9516100">
+    <ns0:ele>273.2</ns0:ele>
+    <ns0:time>2023-08-21T12:11:41Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437100" lon="-79.9517320">
+    <ns0:ele>273.2</ns0:ele>
+    <ns0:time>2023-08-21T12:11:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436810" lon="-79.9518460">
+    <ns0:ele>273.3</ns0:ele>
+    <ns0:time>2023-08-21T12:11:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436690" lon="-79.9519760">
+    <ns0:ele>273.4</ns0:ele>
+    <ns0:time>2023-08-21T12:11:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436510" lon="-79.9521300">
+    <ns0:ele>273.6</ns0:ele>
+    <ns0:time>2023-08-21T12:11:56Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436070" lon="-79.9522500">
+    <ns0:ele>273.7</ns0:ele>
+    <ns0:time>2023-08-21T12:12:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435820" lon="-79.9523810">
+    <ns0:ele>273.8</ns0:ele>
+    <ns0:time>2023-08-21T12:12:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435520" lon="-79.9524950">
+    <ns0:ele>273.9</ns0:ele>
+    <ns0:time>2023-08-21T12:12:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435110" lon="-79.9526460">
+    <ns0:ele>274.1</ns0:ele>
+    <ns0:time>2023-08-21T12:12:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4434600" lon="-79.9527440">
+    <ns0:ele>274.2</ns0:ele>
+    <ns0:time>2023-08-21T12:12:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4434250" lon="-79.9528820">
+    <ns0:ele>274.4</ns0:ele>
+    <ns0:time>2023-08-21T12:12:16Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4434090" lon="-79.9530210">
+    <ns0:ele>274.5</ns0:ele>
+    <ns0:time>2023-08-21T12:12:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4433860" lon="-79.9531590">
+    <ns0:ele>274.7</ns0:ele>
+    <ns0:time>2023-08-21T12:12:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4433730" lon="-79.9532850">
+    <ns0:ele>274.9</ns0:ele>
+    <ns0:time>2023-08-21T12:12:26Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4434190" lon="-79.9534100">
+    <ns0:ele>275.1</ns0:ele>
+    <ns0:time>2023-08-21T12:12:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4434970" lon="-79.9535120">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:12:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435730" lon="-79.9535990">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:12:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437450" lon="-79.9538300">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:13:05Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4438140" lon="-79.9539100">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:13:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4438950" lon="-79.9539940">
+    <ns0:ele>276.7</ns0:ele>
+    <ns0:time>2023-08-21T12:13:12Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439790" lon="-79.9540910">
+    <ns0:ele>277.0</ns0:ele>
+    <ns0:time>2023-08-21T12:13:15Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440640" lon="-79.9541800">
+    <ns0:ele>277.3</ns0:ele>
+    <ns0:time>2023-08-21T12:13:19Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441510" lon="-79.9542410">
+    <ns0:ele>277.5</ns0:ele>
+    <ns0:time>2023-08-21T12:13:22Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442260" lon="-79.9543090">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:13:25Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442940" lon="-79.9544040">
+    <ns0:ele>278.2</ns0:ele>
+    <ns0:time>2023-08-21T12:13:28Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4443650" lon="-79.9545270">
+    <ns0:ele>278.6</ns0:ele>
+    <ns0:time>2023-08-21T12:13:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444850" lon="-79.9545280">
+    <ns0:ele>278.9</ns0:ele>
+    <ns0:time>2023-08-21T12:13:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445500" lon="-79.9544250">
+    <ns0:ele>279.1</ns0:ele>
+    <ns0:time>2023-08-21T12:13:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446090" lon="-79.9543310">
+    <ns0:ele>279.2</ns0:ele>
+    <ns0:time>2023-08-21T12:13:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446830" lon="-79.9542130">
+    <ns0:ele>279.3</ns0:ele>
+    <ns0:time>2023-08-21T12:13:46Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447530" lon="-79.9541060">
+    <ns0:ele>279.4</ns0:ele>
+    <ns0:time>2023-08-21T12:13:50Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4448270" lon="-79.9540110">
+    <ns0:ele>279.5</ns0:ele>
+    <ns0:time>2023-08-21T12:13:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4449000" lon="-79.9539090">
+    <ns0:ele>279.7</ns0:ele>
+    <ns0:time>2023-08-21T12:13:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4449590" lon="-79.9538090">
+    <ns0:ele>279.8</ns0:ele>
+    <ns0:time>2023-08-21T12:14:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4450120" lon="-79.9536990">
+    <ns0:ele>279.9</ns0:ele>
+    <ns0:time>2023-08-21T12:14:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4450980" lon="-79.9535740">
+    <ns0:ele>280.0</ns0:ele>
+    <ns0:time>2023-08-21T12:14:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4451670" lon="-79.9534900">
+    <ns0:ele>280.1</ns0:ele>
+    <ns0:time>2023-08-21T12:14:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4452490" lon="-79.9533940">
+    <ns0:ele>280.2</ns0:ele>
+    <ns0:time>2023-08-21T12:14:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4453110" lon="-79.9533010">
+    <ns0:ele>280.2</ns0:ele>
+    <ns0:time>2023-08-21T12:14:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4453860" lon="-79.9532080">
+    <ns0:ele>280.3</ns0:ele>
+    <ns0:time>2023-08-21T12:14:21Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4454420" lon="-79.9531120">
+    <ns0:ele>280.4</ns0:ele>
+    <ns0:time>2023-08-21T12:14:24Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4455110" lon="-79.9530300">
+    <ns0:ele>280.5</ns0:ele>
+    <ns0:time>2023-08-21T12:14:28Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4455870" lon="-79.9529160">
+    <ns0:ele>280.6</ns0:ele>
+    <ns0:time>2023-08-21T12:14:32Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4456690" lon="-79.9528070">
+    <ns0:ele>280.7</ns0:ele>
+    <ns0:time>2023-08-21T12:14:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4457390" lon="-79.9527000">
+    <ns0:ele>280.8</ns0:ele>
+    <ns0:time>2023-08-21T12:14:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4458080" lon="-79.9526130">
+    <ns0:ele>280.9</ns0:ele>
+    <ns0:time>2023-08-21T12:14:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4458760" lon="-79.9525150">
+    <ns0:ele>281.0</ns0:ele>
+    <ns0:time>2023-08-21T12:14:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4459390" lon="-79.9524250">
+    <ns0:ele>281.1</ns0:ele>
+    <ns0:time>2023-08-21T12:14:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4460160" lon="-79.9523180">
+    <ns0:ele>281.2</ns0:ele>
+    <ns0:time>2023-08-21T12:14:51Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4460900" lon="-79.9522090">
+    <ns0:ele>281.3</ns0:ele>
+    <ns0:time>2023-08-21T12:14:54Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4461720" lon="-79.9521050">
+    <ns0:ele>281.4</ns0:ele>
+    <ns0:time>2023-08-21T12:14:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4462460" lon="-79.9520080">
+    <ns0:ele>281.5</ns0:ele>
+    <ns0:time>2023-08-21T12:15:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4461740" lon="-79.9519290">
+    <ns0:ele>281.0</ns0:ele>
+    <ns0:time>2023-08-21T12:15:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4460910" lon="-79.9518600">
+    <ns0:ele>280.6</ns0:ele>
+    <ns0:time>2023-08-21T12:15:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4460050" lon="-79.9518090">
+    <ns0:ele>280.3</ns0:ele>
+    <ns0:time>2023-08-21T12:15:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4459070" lon="-79.9517730">
+    <ns0:ele>280.0</ns0:ele>
+    <ns0:time>2023-08-21T12:15:16Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4458080" lon="-79.9517280">
+    <ns0:ele>279.6</ns0:ele>
+    <ns0:time>2023-08-21T12:15:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4457210" lon="-79.9516880">
+    <ns0:ele>279.4</ns0:ele>
+    <ns0:time>2023-08-21T12:15:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4456290" lon="-79.9516390">
+    <ns0:ele>279.1</ns0:ele>
+    <ns0:time>2023-08-21T12:15:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4455120" lon="-79.9515900">
+    <ns0:ele>278.8</ns0:ele>
+    <ns0:time>2023-08-21T12:15:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4454110" lon="-79.9515480">
+    <ns0:ele>278.5</ns0:ele>
+    <ns0:time>2023-08-21T12:15:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4453030" lon="-79.9514880">
+    <ns0:ele>278.1</ns0:ele>
+    <ns0:time>2023-08-21T12:15:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4452030" lon="-79.9514630">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:15:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4451090" lon="-79.9514140">
+    <ns0:ele>277.5</ns0:ele>
+    <ns0:time>2023-08-21T12:15:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4450080" lon="-79.9513740">
+    <ns0:ele>277.1</ns0:ele>
+    <ns0:time>2023-08-21T12:15:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4449090" lon="-79.9513450">
+    <ns0:ele>276.8</ns0:ele>
+    <ns0:time>2023-08-21T12:15:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4448230" lon="-79.9512920">
+    <ns0:ele>276.5</ns0:ele>
+    <ns0:time>2023-08-21T12:15:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447190" lon="-79.9512440">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:15:59Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446160" lon="-79.9511920">
+    <ns0:ele>275.7</ns0:ele>
+    <ns0:time>2023-08-21T12:16:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445200" lon="-79.9511370">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:16:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444280" lon="-79.9510710">
+    <ns0:ele>275.1</ns0:ele>
+    <ns0:time>2023-08-21T12:16:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4443330" lon="-79.9510100">
+    <ns0:ele>274.8</ns0:ele>
+    <ns0:time>2023-08-21T12:16:15Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442380" lon="-79.9509790">
+    <ns0:ele>274.6</ns0:ele>
+    <ns0:time>2023-08-21T12:16:18Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441510" lon="-79.9509460">
+    <ns0:ele>274.5</ns0:ele>
+    <ns0:time>2023-08-21T12:16:22Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440520" lon="-79.9509250">
+    <ns0:ele>274.2</ns0:ele>
+    <ns0:time>2023-08-21T12:16:29Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439610" lon="-79.9509390">
+    <ns0:ele>273.8</ns0:ele>
+    <ns0:time>2023-08-21T12:16:47Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4438710" lon="-79.9508860">
+    <ns0:ele>273.7</ns0:ele>
+    <ns0:time>2023-08-21T12:16:54Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437980" lon="-79.9509800">
+    <ns0:ele>273.5</ns0:ele>
+    <ns0:time>2023-08-21T12:16:59Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437600" lon="-79.9511220">
+    <ns0:ele>273.3</ns0:ele>
+    <ns0:time>2023-08-21T12:17:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437260" lon="-79.9512610">
+    <ns0:ele>273.2</ns0:ele>
+    <ns0:time>2023-08-21T12:17:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436980" lon="-79.9513750">
+    <ns0:ele>273.1</ns0:ele>
+    <ns0:time>2023-08-21T12:17:09Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436490" lon="-79.9515090">
+    <ns0:ele>273.0</ns0:ele>
+    <ns0:time>2023-08-21T12:17:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435980" lon="-79.9516440">
+    <ns0:ele>273.0</ns0:ele>
+    <ns0:time>2023-08-21T12:17:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435070" lon="-79.9517590">
+    <ns0:ele>272.9</ns0:ele>
+    <ns0:time>2023-08-21T12:17:21Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4434330" lon="-79.9518360">
+    <ns0:ele>272.9</ns0:ele>
+    <ns0:time>2023-08-21T12:17:24Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4433620" lon="-79.9519100">
+    <ns0:ele>272.9</ns0:ele>
+    <ns0:time>2023-08-21T12:17:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4432660" lon="-79.9519630">
+    <ns0:ele>272.9</ns0:ele>
+    <ns0:time>2023-08-21T12:17:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4431710" lon="-79.9519680">
+    <ns0:ele>272.8</ns0:ele>
+    <ns0:time>2023-08-21T12:17:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4430780" lon="-79.9519240">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:17:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4429960" lon="-79.9518730">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:17:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4428940" lon="-79.9518210">
+    <ns0:ele>272.6</ns0:ele>
+    <ns0:time>2023-08-21T12:17:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4428020" lon="-79.9517650">
+    <ns0:ele>272.6</ns0:ele>
+    <ns0:time>2023-08-21T12:17:46Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4426970" lon="-79.9517280">
+    <ns0:ele>272.6</ns0:ele>
+    <ns0:time>2023-08-21T12:17:50Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4426120" lon="-79.9516810">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:17:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4425100" lon="-79.9516110">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:17:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4424160" lon="-79.9515540">
+    <ns0:ele>272.8</ns0:ele>
+    <ns0:time>2023-08-21T12:18:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4423710" lon="-79.9514150">
+    <ns0:ele>273.0</ns0:ele>
+    <ns0:time>2023-08-21T12:18:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4423370" lon="-79.9512750">
+    <ns0:ele>273.1</ns0:ele>
+    <ns0:time>2023-08-21T12:18:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4422970" lon="-79.9511270">
+    <ns0:ele>273.3</ns0:ele>
+    <ns0:time>2023-08-21T12:18:35Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4422560" lon="-79.9510030">
+    <ns0:ele>273.4</ns0:ele>
+    <ns0:time>2023-08-21T12:18:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4422180" lon="-79.9508530">
+    <ns0:ele>273.6</ns0:ele>
+    <ns0:time>2023-08-21T12:18:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4421840" lon="-79.9507310">
+    <ns0:ele>273.7</ns0:ele>
+    <ns0:time>2023-08-21T12:18:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4421500" lon="-79.9505990">
+    <ns0:ele>273.9</ns0:ele>
+    <ns0:time>2023-08-21T12:18:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4421110" lon="-79.9504880">
+    <ns0:ele>274.1</ns0:ele>
+    <ns0:time>2023-08-21T12:18:51Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4420650" lon="-79.9503860">
+    <ns0:ele>274.2</ns0:ele>
+    <ns0:time>2023-08-21T12:18:54Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4420190" lon="-79.9502650">
+    <ns0:ele>274.4</ns0:ele>
+    <ns0:time>2023-08-21T12:18:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4419340" lon="-79.9501440">
+    <ns0:ele>274.6</ns0:ele>
+    <ns0:time>2023-08-21T12:19:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4418790" lon="-79.9500250">
+    <ns0:ele>274.8</ns0:ele>
+    <ns0:time>2023-08-21T12:19:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4418150" lon="-79.9499320">
+    <ns0:ele>274.9</ns0:ele>
+    <ns0:time>2023-08-21T12:19:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4417640" lon="-79.9497800">
+    <ns0:ele>275.1</ns0:ele>
+    <ns0:time>2023-08-21T12:19:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4416890" lon="-79.9496720">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:19:18Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4416110" lon="-79.9495980">
+    <ns0:ele>275.6</ns0:ele>
+    <ns0:time>2023-08-21T12:19:22Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4415410" lon="-79.9494850">
+    <ns0:ele>275.9</ns0:ele>
+    <ns0:time>2023-08-21T12:19:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4414740" lon="-79.9493840">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:19:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4414000" lon="-79.9492760">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:19:35Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4413180" lon="-79.9491530">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:19:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412550" lon="-79.9490150">
+    <ns0:ele>276.8</ns0:ele>
+    <ns0:time>2023-08-21T12:19:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412130" lon="-79.9489100">
+    <ns0:ele>276.9</ns0:ele>
+    <ns0:time>2023-08-21T12:19:46Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411660" lon="-79.9488080">
+    <ns0:ele>277.1</ns0:ele>
+    <ns0:time>2023-08-21T12:19:49Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411200" lon="-79.9486990">
+    <ns0:ele>277.2</ns0:ele>
+    <ns0:time>2023-08-21T12:19:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4410620" lon="-79.9486010">
+    <ns0:ele>277.4</ns0:ele>
+    <ns0:time>2023-08-21T12:19:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4410120" lon="-79.9484910">
+    <ns0:ele>277.6</ns0:ele>
+    <ns0:time>2023-08-21T12:19:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409410" lon="-79.9483740">
+    <ns0:ele>277.7</ns0:ele>
+    <ns0:time>2023-08-21T12:20:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409180" lon="-79.9482350">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:20:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408720" lon="-79.9481130">
+    <ns0:ele>278.0</ns0:ele>
+    <ns0:time>2023-08-21T12:20:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408420" lon="-79.9479930">
+    <ns0:ele>278.2</ns0:ele>
+    <ns0:time>2023-08-21T12:20:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408000" lon="-79.9478720">
+    <ns0:ele>278.4</ns0:ele>
+    <ns0:time>2023-08-21T12:20:18Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4407500" lon="-79.9477680">
+    <ns0:ele>278.7</ns0:ele>
+    <ns0:time>2023-08-21T12:20:22Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4406950" lon="-79.9476690">
+    <ns0:ele>279.0</ns0:ele>
+    <ns0:time>2023-08-21T12:20:25Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4406430" lon="-79.9475700">
+    <ns0:ele>279.4</ns0:ele>
+    <ns0:time>2023-08-21T12:20:28Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4405880" lon="-79.9474730">
+    <ns0:ele>279.8</ns0:ele>
+    <ns0:time>2023-08-21T12:20:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4405280" lon="-79.9473690">
+    <ns0:ele>280.2</ns0:ele>
+    <ns0:time>2023-08-21T12:20:35Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4404660" lon="-79.9472640">
+    <ns0:ele>280.6</ns0:ele>
+    <ns0:time>2023-08-21T12:20:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4404140" lon="-79.9471560">
+    <ns0:ele>281.0</ns0:ele>
+    <ns0:time>2023-08-21T12:20:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4403630" lon="-79.9470380">
+    <ns0:ele>281.4</ns0:ele>
+    <ns0:time>2023-08-21T12:20:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4403050" lon="-79.9469410">
+    <ns0:ele>281.8</ns0:ele>
+    <ns0:time>2023-08-21T12:20:49Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4402310" lon="-79.9468530">
+    <ns0:ele>282.2</ns0:ele>
+    <ns0:time>2023-08-21T12:20:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4401400" lon="-79.9467760">
+    <ns0:ele>282.5</ns0:ele>
+    <ns0:time>2023-08-21T12:20:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4400410" lon="-79.9467540">
+    <ns0:ele>282.7</ns0:ele>
+    <ns0:time>2023-08-21T12:21:01Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4399440" lon="-79.9467010">
+    <ns0:ele>283.0</ns0:ele>
+    <ns0:time>2023-08-21T12:21:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4398350" lon="-79.9466630">
+    <ns0:ele>283.3</ns0:ele>
+    <ns0:time>2023-08-21T12:21:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4397240" lon="-79.9466090">
+    <ns0:ele>283.6</ns0:ele>
+    <ns0:time>2023-08-21T12:21:12Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4396500" lon="-79.9464860">
+    <ns0:ele>285.3</ns0:ele>
+    <ns0:time>2023-08-21T12:21:16Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4395680" lon="-79.9464040">
+    <ns0:ele>286.5</ns0:ele>
+    <ns0:time>2023-08-21T12:21:21Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4394760" lon="-79.9463440">
+    <ns0:ele>287.7</ns0:ele>
+    <ns0:time>2023-08-21T12:21:24Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4394010" lon="-79.9462640">
+    <ns0:ele>288.7</ns0:ele>
+    <ns0:time>2023-08-21T12:21:28Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4393610" lon="-79.9461500">
+    <ns0:ele>289.6</ns0:ele>
+    <ns0:time>2023-08-21T12:21:32Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4393710" lon="-79.9459970">
+    <ns0:ele>290.7</ns0:ele>
+    <ns0:time>2023-08-21T12:21:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4393950" lon="-79.9458790">
+    <ns0:ele>291.7</ns0:ele>
+    <ns0:time>2023-08-21T12:21:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4394120" lon="-79.9457470">
+    <ns0:ele>292.8</ns0:ele>
+    <ns0:time>2023-08-21T12:21:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4394180" lon="-79.9456260">
+    <ns0:ele>293.9</ns0:ele>
+    <ns0:time>2023-08-21T12:21:47Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4393610" lon="-79.9454980">
+    <ns0:ele>295.2</ns0:ele>
+    <ns0:time>2023-08-21T12:21:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4392830" lon="-79.9453870">
+    <ns0:ele>296.3</ns0:ele>
+    <ns0:time>2023-08-21T12:21:56Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4391950" lon="-79.9453310">
+    <ns0:ele>297.1</ns0:ele>
+    <ns0:time>2023-08-21T12:22:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4391340" lon="-79.9452050">
+    <ns0:ele>297.9</ns0:ele>
+    <ns0:time>2023-08-21T12:22:05Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4391550" lon="-79.9450540">
+    <ns0:ele>298.7</ns0:ele>
+    <ns0:time>2023-08-21T12:22:09Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4392120" lon="-79.9449130">
+    <ns0:ele>299.7</ns0:ele>
+    <ns0:time>2023-08-21T12:22:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4392640" lon="-79.9448030">
+    <ns0:ele>300.6</ns0:ele>
+    <ns0:time>2023-08-21T12:22:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4393120" lon="-79.9446840">
+    <ns0:ele>301.6</ns0:ele>
+    <ns0:time>2023-08-21T12:22:21Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4393820" lon="-79.9445860">
+    <ns0:ele>302.5</ns0:ele>
+    <ns0:time>2023-08-21T12:22:26Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4394770" lon="-79.9444830">
+    <ns0:ele>303.3</ns0:ele>
+    <ns0:time>2023-08-21T12:22:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4395710" lon="-79.9443840">
+    <ns0:ele>303.7</ns0:ele>
+    <ns0:time>2023-08-21T12:22:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4396630" lon="-79.9443080">
+    <ns0:ele>303.8</ns0:ele>
+    <ns0:time>2023-08-21T12:22:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4397640" lon="-79.9442260">
+    <ns0:ele>303.9</ns0:ele>
+    <ns0:time>2023-08-21T12:22:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4398540" lon="-79.9442070">
+    <ns0:ele>304.1</ns0:ele>
+    <ns0:time>2023-08-21T12:22:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4399450" lon="-79.9441900">
+    <ns0:ele>304.4</ns0:ele>
+    <ns0:time>2023-08-21T12:22:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4400450" lon="-79.9441860">
+    <ns0:ele>304.8</ns0:ele>
+    <ns0:time>2023-08-21T12:22:51Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4401480" lon="-79.9441820">
+    <ns0:ele>305.0</ns0:ele>
+    <ns0:time>2023-08-21T12:22:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4402680" lon="-79.9442280">
+    <ns0:ele>304.9</ns0:ele>
+    <ns0:time>2023-08-21T12:23:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4403550" lon="-79.9442930">
+    <ns0:ele>304.4</ns0:ele>
+    <ns0:time>2023-08-21T12:23:05Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4404520" lon="-79.9443410">
+    <ns0:ele>303.8</ns0:ele>
+    <ns0:time>2023-08-21T12:23:09Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4405650" lon="-79.9443800">
+    <ns0:ele>303.0</ns0:ele>
+    <ns0:time>2023-08-21T12:23:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4406440" lon="-79.9444810">
+    <ns0:ele>302.0</ns0:ele>
+    <ns0:time>2023-08-21T12:23:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4407110" lon="-79.9445880">
+    <ns0:ele>301.0</ns0:ele>
+    <ns0:time>2023-08-21T12:23:21Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4407660" lon="-79.9446890">
+    <ns0:ele>299.9</ns0:ele>
+    <ns0:time>2023-08-21T12:23:25Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408020" lon="-79.9447990">
+    <ns0:ele>298.7</ns0:ele>
+    <ns0:time>2023-08-21T12:23:29Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408510" lon="-79.9449230">
+    <ns0:ele>297.4</ns0:ele>
+    <ns0:time>2023-08-21T12:23:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408830" lon="-79.9450400">
+    <ns0:ele>296.4</ns0:ele>
+    <ns0:time>2023-08-21T12:23:38Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409090" lon="-79.9451560">
+    <ns0:ele>295.4</ns0:ele>
+    <ns0:time>2023-08-21T12:23:41Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409290" lon="-79.9452750">
+    <ns0:ele>294.5</ns0:ele>
+    <ns0:time>2023-08-21T12:23:44Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409450" lon="-79.9454140">
+    <ns0:ele>293.5</ns0:ele>
+    <ns0:time>2023-08-21T12:23:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409640" lon="-79.9455550">
+    <ns0:ele>292.5</ns0:ele>
+    <ns0:time>2023-08-21T12:23:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409940" lon="-79.9456690">
+    <ns0:ele>291.6</ns0:ele>
+    <ns0:time>2023-08-21T12:23:56Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4410300" lon="-79.9458140">
+    <ns0:ele>290.6</ns0:ele>
+    <ns0:time>2023-08-21T12:24:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4410930" lon="-79.9459140">
+    <ns0:ele>289.8</ns0:ele>
+    <ns0:time>2023-08-21T12:24:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411520" lon="-79.9460240">
+    <ns0:ele>289.0</ns0:ele>
+    <ns0:time>2023-08-21T12:24:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411660" lon="-79.9461450">
+    <ns0:ele>288.1</ns0:ele>
+    <ns0:time>2023-08-21T12:24:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411790" lon="-79.9463180">
+    <ns0:ele>287.1</ns0:ele>
+    <ns0:time>2023-08-21T12:24:15Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411940" lon="-79.9464600">
+    <ns0:ele>286.2</ns0:ele>
+    <ns0:time>2023-08-21T12:24:18Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412350" lon="-79.9465830">
+    <ns0:ele>285.3</ns0:ele>
+    <ns0:time>2023-08-21T12:24:22Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412640" lon="-79.9467140">
+    <ns0:ele>284.5</ns0:ele>
+    <ns0:time>2023-08-21T12:24:26Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412780" lon="-79.9468380">
+    <ns0:ele>283.8</ns0:ele>
+    <ns0:time>2023-08-21T12:24:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4413480" lon="-79.9469420">
+    <ns0:ele>283.2</ns0:ele>
+    <ns0:time>2023-08-21T12:24:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4414370" lon="-79.9470440">
+    <ns0:ele>282.7</ns0:ele>
+    <ns0:time>2023-08-21T12:24:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4413560" lon="-79.9471300">
+    <ns0:ele>281.8</ns0:ele>
+    <ns0:time>2023-08-21T12:24:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412820" lon="-79.9472220">
+    <ns0:ele>281.0</ns0:ele>
+    <ns0:time>2023-08-21T12:25:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412290" lon="-79.9473400">
+    <ns0:ele>280.4</ns0:ele>
+    <ns0:time>2023-08-21T12:25:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411630" lon="-79.9474810">
+    <ns0:ele>279.8</ns0:ele>
+    <ns0:time>2023-08-21T12:25:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411260" lon="-79.9476240">
+    <ns0:ele>279.2</ns0:ele>
+    <ns0:time>2023-08-21T12:25:15Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4410810" lon="-79.9477330">
+    <ns0:ele>278.5</ns0:ele>
+    <ns0:time>2023-08-21T12:25:19Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4410160" lon="-79.9478480">
+    <ns0:ele>278.2</ns0:ele>
+    <ns0:time>2023-08-21T12:25:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409380" lon="-79.9479330">
+    <ns0:ele>278.1</ns0:ele>
+    <ns0:time>2023-08-21T12:25:26Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408890" lon="-79.9480380">
+    <ns0:ele>278.1</ns0:ele>
+    <ns0:time>2023-08-21T12:25:29Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4408680" lon="-79.9481650">
+    <ns0:ele>278.0</ns0:ele>
+    <ns0:time>2023-08-21T12:25:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409110" lon="-79.9482840">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:25:37Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4409790" lon="-79.9484060">
+    <ns0:ele>277.7</ns0:ele>
+    <ns0:time>2023-08-21T12:25:41Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4410400" lon="-79.9485080">
+    <ns0:ele>277.5</ns0:ele>
+    <ns0:time>2023-08-21T12:25:44Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411110" lon="-79.9486390">
+    <ns0:ele>277.3</ns0:ele>
+    <ns0:time>2023-08-21T12:25:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4411730" lon="-79.9487670">
+    <ns0:ele>277.1</ns0:ele>
+    <ns0:time>2023-08-21T12:25:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4412360" lon="-79.9488760">
+    <ns0:ele>277.0</ns0:ele>
+    <ns0:time>2023-08-21T12:25:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4413010" lon="-79.9489840">
+    <ns0:ele>276.8</ns0:ele>
+    <ns0:time>2023-08-21T12:25:59Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4413630" lon="-79.9491140">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:26:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4414380" lon="-79.9492460">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:26:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4415130" lon="-79.9493360">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:26:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4415680" lon="-79.9494650">
+    <ns0:ele>275.8</ns0:ele>
+    <ns0:time>2023-08-21T12:26:15Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4416230" lon="-79.9495750">
+    <ns0:ele>275.6</ns0:ele>
+    <ns0:time>2023-08-21T12:26:18Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4416830" lon="-79.9496690">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:26:21Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4417630" lon="-79.9497600">
+    <ns0:ele>275.2</ns0:ele>
+    <ns0:time>2023-08-21T12:26:25Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4418260" lon="-79.9498720">
+    <ns0:ele>274.9</ns0:ele>
+    <ns0:time>2023-08-21T12:26:28Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4419030" lon="-79.9499740">
+    <ns0:ele>274.8</ns0:ele>
+    <ns0:time>2023-08-21T12:26:32Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4419640" lon="-79.9500720">
+    <ns0:ele>274.7</ns0:ele>
+    <ns0:time>2023-08-21T12:26:35Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4420390" lon="-79.9501650">
+    <ns0:ele>274.5</ns0:ele>
+    <ns0:time>2023-08-21T12:26:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4420990" lon="-79.9502760">
+    <ns0:ele>274.3</ns0:ele>
+    <ns0:time>2023-08-21T12:26:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4421640" lon="-79.9504050">
+    <ns0:ele>274.1</ns0:ele>
+    <ns0:time>2023-08-21T12:26:47Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4422070" lon="-79.9505140">
+    <ns0:ele>274.0</ns0:ele>
+    <ns0:time>2023-08-21T12:26:50Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4422520" lon="-79.9506420">
+    <ns0:ele>273.8</ns0:ele>
+    <ns0:time>2023-08-21T12:26:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4423040" lon="-79.9507860">
+    <ns0:ele>273.6</ns0:ele>
+    <ns0:time>2023-08-21T12:26:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4423290" lon="-79.9509020">
+    <ns0:ele>273.5</ns0:ele>
+    <ns0:time>2023-08-21T12:27:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4423480" lon="-79.9510200">
+    <ns0:ele>273.4</ns0:ele>
+    <ns0:time>2023-08-21T12:27:03Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4423770" lon="-79.9511450">
+    <ns0:ele>273.2</ns0:ele>
+    <ns0:time>2023-08-21T12:27:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4424180" lon="-79.9512620">
+    <ns0:ele>273.1</ns0:ele>
+    <ns0:time>2023-08-21T12:27:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4424410" lon="-79.9513810">
+    <ns0:ele>273.0</ns0:ele>
+    <ns0:time>2023-08-21T12:27:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4424780" lon="-79.9514920">
+    <ns0:ele>272.8</ns0:ele>
+    <ns0:time>2023-08-21T12:27:16Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4425580" lon="-79.9515920">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:27:19Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4426690" lon="-79.9516520">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:27:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4427670" lon="-79.9516880">
+    <ns0:ele>272.6</ns0:ele>
+    <ns0:time>2023-08-21T12:27:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4428720" lon="-79.9517340">
+    <ns0:ele>272.6</ns0:ele>
+    <ns0:time>2023-08-21T12:27:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4429780" lon="-79.9517950">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:27:35Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4430840" lon="-79.9518460">
+    <ns0:ele>272.7</ns0:ele>
+    <ns0:time>2023-08-21T12:27:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4431890" lon="-79.9519060">
+    <ns0:ele>272.8</ns0:ele>
+    <ns0:time>2023-08-21T12:27:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4432760" lon="-79.9519730">
+    <ns0:ele>272.9</ns0:ele>
+    <ns0:time>2023-08-21T12:27:46Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4433700" lon="-79.9519820">
+    <ns0:ele>273.1</ns0:ele>
+    <ns0:time>2023-08-21T12:27:49Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4434770" lon="-79.9519210">
+    <ns0:ele>273.2</ns0:ele>
+    <ns0:time>2023-08-21T12:27:53Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435090" lon="-79.9517800">
+    <ns0:ele>273.1</ns0:ele>
+    <ns0:time>2023-08-21T12:27:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435340" lon="-79.9516550">
+    <ns0:ele>273.0</ns0:ele>
+    <ns0:time>2023-08-21T12:28:00Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4435720" lon="-79.9515000">
+    <ns0:ele>273.0</ns0:ele>
+    <ns0:time>2023-08-21T12:28:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436160" lon="-79.9513630">
+    <ns0:ele>273.1</ns0:ele>
+    <ns0:time>2023-08-21T12:28:09Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436540" lon="-79.9512430">
+    <ns0:ele>273.2</ns0:ele>
+    <ns0:time>2023-08-21T12:28:12Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4436830" lon="-79.9511150">
+    <ns0:ele>273.3</ns0:ele>
+    <ns0:time>2023-08-21T12:28:16Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437080" lon="-79.9509990">
+    <ns0:ele>273.4</ns0:ele>
+    <ns0:time>2023-08-21T12:28:19Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4437680" lon="-79.9508640">
+    <ns0:ele>273.6</ns0:ele>
+    <ns0:time>2023-08-21T12:28:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4438130" lon="-79.9507240">
+    <ns0:ele>273.8</ns0:ele>
+    <ns0:time>2023-08-21T12:28:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4438620" lon="-79.9506090">
+    <ns0:ele>274.1</ns0:ele>
+    <ns0:time>2023-08-21T12:28:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439020" lon="-79.9505000">
+    <ns0:ele>274.3</ns0:ele>
+    <ns0:time>2023-08-21T12:28:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439180" lon="-79.9503640">
+    <ns0:ele>274.4</ns0:ele>
+    <ns0:time>2023-08-21T12:28:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439360" lon="-79.9502350">
+    <ns0:ele>274.6</ns0:ele>
+    <ns0:time>2023-08-21T12:28:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439570" lon="-79.9501000">
+    <ns0:ele>274.9</ns0:ele>
+    <ns0:time>2023-08-21T12:28:42Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4439690" lon="-79.9499690">
+    <ns0:ele>275.1</ns0:ele>
+    <ns0:time>2023-08-21T12:28:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440040" lon="-79.9498310">
+    <ns0:ele>275.3</ns0:ele>
+    <ns0:time>2023-08-21T12:28:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440240" lon="-79.9497060">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:28:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4440650" lon="-79.9495740">
+    <ns0:ele>275.7</ns0:ele>
+    <ns0:time>2023-08-21T12:28:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441090" lon="-79.9494450">
+    <ns0:ele>275.9</ns0:ele>
+    <ns0:time>2023-08-21T12:28:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441290" lon="-79.9493230">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:29:01Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441590" lon="-79.9491910">
+    <ns0:ele>276.2</ns0:ele>
+    <ns0:time>2023-08-21T12:29:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4441770" lon="-79.9490570">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:29:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442250" lon="-79.9489300">
+    <ns0:ele>276.5</ns0:ele>
+    <ns0:time>2023-08-21T12:29:12Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4442710" lon="-79.9488190">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:29:15Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4443120" lon="-79.9486870">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:29:18Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4443740" lon="-79.9485710">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:29:22Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4444620" lon="-79.9484940">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:29:25Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445200" lon="-79.9484010">
+    <ns0:ele>276.3</ns0:ele>
+    <ns0:time>2023-08-21T12:29:29Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445050" lon="-79.9482460">
+    <ns0:ele>276.1</ns0:ele>
+    <ns0:time>2023-08-21T12:29:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445060" lon="-79.9480870">
+    <ns0:ele>275.9</ns0:ele>
+    <ns0:time>2023-08-21T12:29:37Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445200" lon="-79.9479240">
+    <ns0:ele>275.7</ns0:ele>
+    <ns0:time>2023-08-21T12:29:41Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445250" lon="-79.9477790">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:29:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445330" lon="-79.9476520">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:29:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445540" lon="-79.9475290">
+    <ns0:ele>275.3</ns0:ele>
+    <ns0:time>2023-08-21T12:29:51Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445710" lon="-79.9474040">
+    <ns0:ele>275.2</ns0:ele>
+    <ns0:time>2023-08-21T12:29:54Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445650" lon="-79.9472610">
+    <ns0:ele>275.2</ns0:ele>
+    <ns0:time>2023-08-21T12:29:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445620" lon="-79.9471130">
+    <ns0:ele>275.3</ns0:ele>
+    <ns0:time>2023-08-21T12:30:01Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445700" lon="-79.9469920">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:30:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445570" lon="-79.9468620">
+    <ns0:ele>275.4</ns0:ele>
+    <ns0:time>2023-08-21T12:30:07Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445580" lon="-79.9467330">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:30:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445470" lon="-79.9465760">
+    <ns0:ele>275.5</ns0:ele>
+    <ns0:time>2023-08-21T12:30:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445410" lon="-79.9464560">
+    <ns0:ele>275.6</ns0:ele>
+    <ns0:time>2023-08-21T12:30:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445370" lon="-79.9463050">
+    <ns0:ele>275.6</ns0:ele>
+    <ns0:time>2023-08-21T12:30:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445550" lon="-79.9461770">
+    <ns0:ele>275.7</ns0:ele>
+    <ns0:time>2023-08-21T12:30:24Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445520" lon="-79.9460310">
+    <ns0:ele>275.9</ns0:ele>
+    <ns0:time>2023-08-21T12:30:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445570" lon="-79.9458770">
+    <ns0:ele>276.2</ns0:ele>
+    <ns0:time>2023-08-21T12:30:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445450" lon="-79.9457580">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:30:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445420" lon="-79.9456280">
+    <ns0:ele>276.7</ns0:ele>
+    <ns0:time>2023-08-21T12:30:37Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445550" lon="-79.9454960">
+    <ns0:ele>277.1</ns0:ele>
+    <ns0:time>2023-08-21T12:30:41Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445660" lon="-79.9453630">
+    <ns0:ele>277.4</ns0:ele>
+    <ns0:time>2023-08-21T12:30:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445710" lon="-79.9452270">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:30:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4445770" lon="-79.9450830">
+    <ns0:ele>278.4</ns0:ele>
+    <ns0:time>2023-08-21T12:30:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446020" lon="-79.9449650">
+    <ns0:ele>278.8</ns0:ele>
+    <ns0:time>2023-08-21T12:30:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446380" lon="-79.9448350">
+    <ns0:ele>279.4</ns0:ele>
+    <ns0:time>2023-08-21T12:30:59Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446760" lon="-79.9446810">
+    <ns0:ele>280.1</ns0:ele>
+    <ns0:time>2023-08-21T12:31:04Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446780" lon="-79.9445590">
+    <ns0:ele>280.5</ns0:ele>
+    <ns0:time>2023-08-21T12:31:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446810" lon="-79.9444350">
+    <ns0:ele>280.9</ns0:ele>
+    <ns0:time>2023-08-21T12:31:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446950" lon="-79.9442980">
+    <ns0:ele>281.3</ns0:ele>
+    <ns0:time>2023-08-21T12:31:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446880" lon="-79.9441730">
+    <ns0:ele>281.7</ns0:ele>
+    <ns0:time>2023-08-21T12:31:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446750" lon="-79.9440500">
+    <ns0:ele>282.1</ns0:ele>
+    <ns0:time>2023-08-21T12:31:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446760" lon="-79.9439140">
+    <ns0:ele>282.5</ns0:ele>
+    <ns0:time>2023-08-21T12:31:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446920" lon="-79.9437610">
+    <ns0:ele>282.9</ns0:ele>
+    <ns0:time>2023-08-21T12:31:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447110" lon="-79.9436050">
+    <ns0:ele>283.4</ns0:ele>
+    <ns0:time>2023-08-21T12:31:31Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447190" lon="-79.9434460">
+    <ns0:ele>284.0</ns0:ele>
+    <ns0:time>2023-08-21T12:31:35Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447290" lon="-79.9433040">
+    <ns0:ele>284.6</ns0:ele>
+    <ns0:time>2023-08-21T12:31:39Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447100" lon="-79.9431660">
+    <ns0:ele>285.2</ns0:ele>
+    <ns0:time>2023-08-21T12:31:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4446900" lon="-79.9430490">
+    <ns0:ele>285.4</ns0:ele>
+    <ns0:time>2023-08-21T12:31:46Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4447870" lon="-79.9429490">
+    <ns0:ele>285.7</ns0:ele>
+    <ns0:time>2023-08-21T12:31:51Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4448900" lon="-79.9429110">
+    <ns0:ele>285.6</ns0:ele>
+    <ns0:time>2023-08-21T12:31:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4449760" lon="-79.9428620">
+    <ns0:ele>285.5</ns0:ele>
+    <ns0:time>2023-08-21T12:31:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4450920" lon="-79.9428000">
+    <ns0:ele>285.4</ns0:ele>
+    <ns0:time>2023-08-21T12:32:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4451860" lon="-79.9427070">
+    <ns0:ele>285.2</ns0:ele>
+    <ns0:time>2023-08-21T12:32:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4452880" lon="-79.9426400">
+    <ns0:ele>285.1</ns0:ele>
+    <ns0:time>2023-08-21T12:32:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4453790" lon="-79.9425940">
+    <ns0:ele>285.0</ns0:ele>
+    <ns0:time>2023-08-21T12:32:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4454800" lon="-79.9425160">
+    <ns0:ele>284.9</ns0:ele>
+    <ns0:time>2023-08-21T12:32:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4455760" lon="-79.9424700">
+    <ns0:ele>284.9</ns0:ele>
+    <ns0:time>2023-08-21T12:32:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4456700" lon="-79.9424540">
+    <ns0:ele>284.7</ns0:ele>
+    <ns0:time>2023-08-21T12:32:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4457550" lon="-79.9424120">
+    <ns0:ele>284.6</ns0:ele>
+    <ns0:time>2023-08-21T12:32:26Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4458610" lon="-79.9423500">
+    <ns0:ele>284.5</ns0:ele>
+    <ns0:time>2023-08-21T12:32:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4459470" lon="-79.9422990">
+    <ns0:ele>284.3</ns0:ele>
+    <ns0:time>2023-08-21T12:32:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4460440" lon="-79.9422980">
+    <ns0:ele>284.2</ns0:ele>
+    <ns0:time>2023-08-21T12:32:36Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4461500" lon="-79.9423250">
+    <ns0:ele>283.9</ns0:ele>
+    <ns0:time>2023-08-21T12:32:40Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4462510" lon="-79.9423530">
+    <ns0:ele>283.7</ns0:ele>
+    <ns0:time>2023-08-21T12:32:43Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4463420" lon="-79.9423780">
+    <ns0:ele>283.5</ns0:ele>
+    <ns0:time>2023-08-21T12:32:45Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4464340" lon="-79.9424090">
+    <ns0:ele>283.4</ns0:ele>
+    <ns0:time>2023-08-21T12:32:47Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4465330" lon="-79.9424290">
+    <ns0:ele>283.1</ns0:ele>
+    <ns0:time>2023-08-21T12:32:50Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4466580" lon="-79.9424290">
+    <ns0:ele>282.8</ns0:ele>
+    <ns0:time>2023-08-21T12:32:54Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4467730" lon="-79.9424340">
+    <ns0:ele>282.5</ns0:ele>
+    <ns0:time>2023-08-21T12:32:58Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4468680" lon="-79.9424260">
+    <ns0:ele>282.3</ns0:ele>
+    <ns0:time>2023-08-21T12:33:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4469800" lon="-79.9424540">
+    <ns0:ele>282.0</ns0:ele>
+    <ns0:time>2023-08-21T12:33:06Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470730" lon="-79.9424780">
+    <ns0:ele>281.8</ns0:ele>
+    <ns0:time>2023-08-21T12:33:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471740" lon="-79.9424970">
+    <ns0:ele>281.6</ns0:ele>
+    <ns0:time>2023-08-21T12:33:10Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472700" lon="-79.9424950">
+    <ns0:ele>281.4</ns0:ele>
+    <ns0:time>2023-08-21T12:33:13Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4473660" lon="-79.9425000">
+    <ns0:ele>281.2</ns0:ele>
+    <ns0:time>2023-08-21T12:33:16Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4473960" lon="-79.9426530">
+    <ns0:ele>280.8</ns0:ele>
+    <ns0:time>2023-08-21T12:33:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4473570" lon="-79.9427790">
+    <ns0:ele>280.6</ns0:ele>
+    <ns0:time>2023-08-21T12:33:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4473410" lon="-79.9429130">
+    <ns0:ele>280.3</ns0:ele>
+    <ns0:time>2023-08-21T12:33:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4473160" lon="-79.9430320">
+    <ns0:ele>280.1</ns0:ele>
+    <ns0:time>2023-08-21T12:33:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4473090" lon="-79.9431610">
+    <ns0:ele>279.8</ns0:ele>
+    <ns0:time>2023-08-21T12:33:33Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4473050" lon="-79.9433030">
+    <ns0:ele>279.5</ns0:ele>
+    <ns0:time>2023-08-21T12:33:37Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472980" lon="-79.9434570">
+    <ns0:ele>279.2</ns0:ele>
+    <ns0:time>2023-08-21T12:33:41Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472990" lon="-79.9435830">
+    <ns0:ele>279.0</ns0:ele>
+    <ns0:time>2023-08-21T12:33:44Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472770" lon="-79.9437450">
+    <ns0:ele>278.7</ns0:ele>
+    <ns0:time>2023-08-21T12:33:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472610" lon="-79.9438990">
+    <ns0:ele>278.4</ns0:ele>
+    <ns0:time>2023-08-21T12:33:52Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472460" lon="-79.9440380">
+    <ns0:ele>278.2</ns0:ele>
+    <ns0:time>2023-08-21T12:33:55Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472340" lon="-79.9441740">
+    <ns0:ele>278.0</ns0:ele>
+    <ns0:time>2023-08-21T12:33:59Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472360" lon="-79.9442970">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:34:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472390" lon="-79.9444300">
+    <ns0:ele>277.5</ns0:ele>
+    <ns0:time>2023-08-21T12:34:05Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4472030" lon="-79.9445420">
+    <ns0:ele>277.3</ns0:ele>
+    <ns0:time>2023-08-21T12:34:08Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471810" lon="-79.9446610">
+    <ns0:ele>277.2</ns0:ele>
+    <ns0:time>2023-08-21T12:34:11Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471620" lon="-79.9447820">
+    <ns0:ele>277.0</ns0:ele>
+    <ns0:time>2023-08-21T12:34:14Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471820" lon="-79.9449250">
+    <ns0:ele>276.8</ns0:ele>
+    <ns0:time>2023-08-21T12:34:17Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471880" lon="-79.9450650">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:34:20Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471640" lon="-79.9452050">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:34:23Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471600" lon="-79.9453300">
+    <ns0:ele>276.4</ns0:ele>
+    <ns0:time>2023-08-21T12:34:27Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471470" lon="-79.9454480">
+    <ns0:ele>276.5</ns0:ele>
+    <ns0:time>2023-08-21T12:34:30Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471150" lon="-79.9455960">
+    <ns0:ele>276.6</ns0:ele>
+    <ns0:time>2023-08-21T12:34:34Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471120" lon="-79.9457220">
+    <ns0:ele>276.7</ns0:ele>
+    <ns0:time>2023-08-21T12:34:37Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471240" lon="-79.9458760">
+    <ns0:ele>276.9</ns0:ele>
+    <ns0:time>2023-08-21T12:34:41Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471290" lon="-79.9460100">
+    <ns0:ele>277.0</ns0:ele>
+    <ns0:time>2023-08-21T12:34:44Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471220" lon="-79.9461720">
+    <ns0:ele>277.2</ns0:ele>
+    <ns0:time>2023-08-21T12:34:48Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4471050" lon="-79.9463050">
+    <ns0:ele>277.4</ns0:ele>
+    <ns0:time>2023-08-21T12:34:51Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470970" lon="-79.9464440">
+    <ns0:ele>277.5</ns0:ele>
+    <ns0:time>2023-08-21T12:34:54Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470890" lon="-79.9465750">
+    <ns0:ele>277.7</ns0:ele>
+    <ns0:time>2023-08-21T12:34:57Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470640" lon="-79.9466950">
+    <ns0:ele>277.8</ns0:ele>
+    <ns0:time>2023-08-21T12:35:02Z</ns0:time>
+   </ns0:trkpt>
+   <ns0:trkpt lat="40.4470320" lon="-79.9468070">
+    <ns0:ele>277.9</ns0:ele>
+    <ns0:time>2023-08-21T12:35:07Z</ns0:time>
+   </ns0:trkpt>
+   </ns0:trkseg>
+ </ns0:trk>
+</ns0:gpx>

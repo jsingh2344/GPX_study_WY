@@ -1,0 +1,12 @@
+feature,coefficient,scale
+intercept,2.14780049,log_speed
+elevation,-0.00015792,log_speed
+elevation_x_uphill_slope,-1.49e-06,log_speed
+slope_bin_-40_to_-30,-0.54128399,log_speed
+slope_bin_-30_to_-20,-0.42356718,log_speed
+slope_bin_-20_to_-10,-0.08066977,log_speed
+slope_bin_-10_to_0,0.31556224,log_speed
+slope_bin_0_to_10,0.33335778,log_speed
+slope_bin_10_to_20,-0.1191835,log_speed
+slope_bin_20_to_30,-0.34958873,log_speed
+slope_bin_30_to_40,-0.36636436,log_speed
